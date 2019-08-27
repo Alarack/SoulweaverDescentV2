@@ -170,6 +170,12 @@ TextureImporter:
   - first:
       213: 21300110
     second: TEM1_FloorGrate
+  - first:
+      213: 1178089977481180438
+    second: TEM1_DualCornerBottomless
+  - first:
+      213: -4176971634708459316
+    second: Temple_Tile_set_1_1
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -777,8 +783,8 @@ TextureImporter:
         y: 901
         width: 94
         height: 123
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -819,8 +825,8 @@ TextureImporter:
         y: 942
         width: 34
         height: 81
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -924,8 +930,8 @@ TextureImporter:
         y: 932
         width: 1
         height: 9
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1008,8 +1014,8 @@ TextureImporter:
         y: 880
         width: 8
         height: 12
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1029,8 +1035,8 @@ TextureImporter:
         y: 832
         width: 14
         height: 47
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1050,8 +1056,8 @@ TextureImporter:
         y: 832
         width: 20
         height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1092,8 +1098,8 @@ TextureImporter:
         y: 832
         width: 23
         height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1218,8 +1224,8 @@ TextureImporter:
         y: 769
         width: 44
         height: 39
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1428,8 +1434,8 @@ TextureImporter:
         y: 885
         width: 59
         height: 15
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1437,6 +1443,48 @@ TextureImporter:
       bones: []
       spriteID: 37e9534933e72c046811960ae34ff617
       internalID: 21300110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_DualCornerBottomless
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5f00145ca76d5843ae8d355188558fd
+      internalID: 1178089977481180438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_Tile_set_1_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 768
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e225063e7f66284ab4ba104c4272d2c
+      internalID: -4176971634708459316
       vertices: []
       indices: 
       edges: []
