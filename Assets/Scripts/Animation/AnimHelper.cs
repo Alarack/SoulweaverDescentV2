@@ -75,6 +75,10 @@ public class AnimHelper : MonoBehaviour
             return false;
         }
     }
+
+    public void SetFloat(string floatName, float value) {
+        Anim.SetFloat(floatName, value);
+    }
     public void PlayParticleEffect(string particleName)
     {
         ParticleSystem p;

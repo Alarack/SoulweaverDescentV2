@@ -33,13 +33,13 @@ public class PlayerController : EntityMovement {
     //public float dashSpeed = 30f;
     public float dashCooldown = 3f;
 
-    [Header("Attack Variable")]
-    public GameObject attackGameObject;
-    public GameObject attackGameObjectVariant;
-    public Transform leftOrigin;
-    public Transform rightOrigin;
+    //[Header("Attack Variable")]
+    //public GameObject attackGameObject;
+    //public GameObject attackGameObjectVariant;
+    //public Transform leftOrigin;
+    //public Transform rightOrigin;
 
-    private GameObject currentAttackGameObject;
+    //private GameObject currentAttackGameObject;
 
 
     //public bool isDashActive;

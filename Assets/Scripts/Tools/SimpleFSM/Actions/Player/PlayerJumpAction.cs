@@ -38,6 +38,14 @@ public class PlayerJumpAction : BaseStateAction {
         //Debug.Log(currentJumpCount + " is current jumps");
     }
 
+    public override void ManagedUpdate() {
+        base.ManagedUpdate();
+
+        float vSpeed = owner.Movement.MyBody.velocity.y;
+
+        owner.AnimHelper.SetFloat("vSpeed", vSpeed);
+    }
+
 
     private void Jump()
     {

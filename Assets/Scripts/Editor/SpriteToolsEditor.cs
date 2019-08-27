@@ -12,11 +12,13 @@ public class SpriteToolsEditor : Editor
     {
         _spriteTools = (SpriteTools)target;
 
-
-
         if(GUILayout.Button("Randomize Sprites"))
         {
             _spriteTools.RandomizeSprites();
+        }
+
+        if (GUILayout.Button("Reset Sprites")) {
+            _spriteTools.ResetSprites();
         }
 
 
