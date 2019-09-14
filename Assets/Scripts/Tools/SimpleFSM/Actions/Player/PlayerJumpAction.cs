@@ -75,7 +75,9 @@ public class PlayerJumpAction : BaseStateAction {
             //Debug.Log("Reseting jump");
 
             currentJumpCount = 0;
+            owner.AnimHelper.PlayAnimTrigger("Land");
             owner.AnimHelper.PlayOrStopAnimBool("Jumping", false);
+
         }
     }
 }
