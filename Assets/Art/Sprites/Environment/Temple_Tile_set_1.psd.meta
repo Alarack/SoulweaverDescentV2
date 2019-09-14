@@ -175,7 +175,307 @@ TextureImporter:
     second: TEM1_DualCornerBottomless
   - first:
       213: -4176971634708459316
-    second: Temple_Tile_set_1_1
+    second: TEM1_DualCornerWithCeiling
+  - first:
+      213: 5708747962777843348
+    second: TEM1_StandingBookshelf
+  - first:
+      213: 2426777110747952869
+    second: TEM1_IntRailingMid
+  - first:
+      213: -8916385137915631931
+    second: TEM1_IntRailingEnd
+  - first:
+      213: 359617718660091221
+    second: TEM1_IntPillar2B
+  - first:
+      213: 9109486082290656471
+    second: TEM1_IntPillar3B
+  - first:
+      213: -2154639969042431291
+    second: TEM1_IntCrownMould
+  - first:
+      213: 1621629817812950065
+    second: TEM1_IntBaseBoard
+  - first:
+      213: 9141002751749297157
+    second: TEM1_IntWindowMed
+  - first:
+      213: 959857719606146189
+    second: TEM1_PotionYellow
+  - first:
+      213: 4572769794695390802
+    second: TEM1_PotionBlue
+  - first:
+      213: -1177902006301280765
+    second: TEM1_PotionGreen
+  - first:
+      213: 7250090837025390103
+    second: TEM1_PotionRed
+  - first:
+      213: -8160143487575978529
+    second: TEM1_PotionEmpty
+  - first:
+      213: 8460887995374926494
+    second: TEM1_PotionEmptyDark
+  - first:
+      213: -2285308488459871642
+    second: TEM1_PotionFill
+  - first:
+      213: 9091777924314660840
+    second: TEM1_LargeChainW
+  - first:
+      213: -3586598557223451021
+    second: TEM1_LargeChainF
+  - first:
+      213: 7120881170881414151
+    second: TEM1_LargeChainBrokenW
+  - first:
+      213: 7193782430356195975
+    second: TEM1_LargeChainBrokenF
+  - first:
+      213: 2697609696839434777
+    second: TEM1_BookTurnDBlue
+  - first:
+      213: 6452959550687351292
+    second: TEM1_BookTurnDPurple
+  - first:
+      213: -5602005325984952691
+    second: TEM1_BookTurnDBrown
+  - first:
+      213: -835439033361466900
+    second: TEM1_BookTurnDGreen
+  - first:
+      213: -5227183580142223170
+    second: TEM1_BookTurnBrown
+  - first:
+      213: 8254983950360813586
+    second: TEM1_BookTurnRed
+  - first:
+      213: 8853697580706226078
+    second: TEM1_BookTurnBlue
+  - first:
+      213: -7348449236912429205
+    second: TEM1_BookTurnGreen
+  - first:
+      213: 9088585380509480477
+    second: TEM1_BookTurnOrange
+  - first:
+      213: 2575119308062072488
+    second: TEM1_BookTurnTan
+  - first:
+      213: 6427463347123499843
+    second: TEM1_BookSideOrange
+  - first:
+      213: -8023863581333650048
+    second: TEM1_BookSideDRed
+  - first:
+      213: 2778469423463341962
+    second: TEM1_BookSideDGreen
+  - first:
+      213: -7467722090768603194
+    second: TEM1_BookSideTan
+  - first:
+      213: -6985666675503879749
+    second: TEM1_BookSideBlue
+  - first:
+      213: -726703350912692575
+    second: TEM1_BookSideDBlue
+  - first:
+      213: -3406076046682427563
+    second: TEM1_BookSideDBrown
+  - first:
+      213: 6430750208151260706
+    second: TEM1_BookSideBrown
+  - first:
+      213: -8221885389387490817
+    second: TEM1_BookSideNavyBlue
+  - first:
+      213: 2400282557455071673
+    second: TEM1_BookSideFadedRed
+  - first:
+      213: 1611832692204334748
+    second: TEM1_BookRed
+  - first:
+      213: -3903678896380672486
+    second: TEM1_BookDarkBlue
+  - first:
+      213: -340635646379251677
+    second: TEM1_BookFadedRed
+  - first:
+      213: 9182569388533023678
+    second: TEM1_BookGreen
+  - first:
+      213: -2890013081291134780
+    second: TEM1_BookOldGreen
+  - first:
+      213: -6530946191294519541
+    second: TEM1_BookFadedGreen
+  - first:
+      213: 7715023667505688368
+    second: TEM1_BookTan
+  - first:
+      213: 3878415257864743890
+    second: TEM1_BookFadedOrange
+  - first:
+      213: -8994297247332914467
+    second: TEM1_BookPurple
+  - first:
+      213: -2924591501456985343
+    second: TEM1_BookBlue
+  - first:
+      213: -434284939286609030
+    second: TEM1_Bookshelf
+  - first:
+      213: -630779236406394295
+    second: TEM1_ClayPotRedmark
+  - first:
+      213: 1325219715869501863
+    second: TEM1_ClayPotShard1
+  - first:
+      213: -8484827473515746138
+    second: TEM1_ClayPotShard2
+  - first:
+      213: 6274021073674387353
+    second: TEM1_ClayPotShard3
+  - first:
+      213: -3867039230288048411
+    second: TEM1_ClayPotShard5
+  - first:
+      213: -8345242170280778649
+    second: TEM1_ClayPotShard6
+  - first:
+      213: -3088926274106444439
+    second: TEM1_ClayPotShard4
+  - first:
+      213: -1007234501528862065
+    second: TEM1_TileWallWTop
+  - first:
+      213: -1563805829077874297
+    second: TEM1_BlockTile1
+  - first:
+      213: -4176971634708459316
+    second: TEM1_BlockTile2
+  - first:
+      213: -5108666182933110509
+    second: TEM1_BlockTile3
+  - first:
+      213: -5254972049596249316
+    second: TEM1_BlockTile4
+  - first:
+      213: 4324733108956434104
+    second: TEM1_BlockTile5
+  - first:
+      213: 2154004404368944800
+    second: TEM1_BlockTile6
+  - first:
+      213: -3187190131969354971
+    second: TEM1_BlockTileTilted3
+  - first:
+      213: 1775239774049427385
+    second: TEM1_BlockTileTilted1
+  - first:
+      213: 3048591476695142085
+    second: TEM1_BlockTileTilted2
+  - first:
+      213: -6505552218038438154
+    second: TEM1_BlockTile7
+  - first:
+      213: -7010695017116030100
+    second: TEM1_BlockTile8
+  - first:
+      213: -879992183506008251
+    second: TEM1_BlockTile9
+  - first:
+      213: 6154571318521111823
+    second: TEM1_BlockTile13
+  - first:
+      213: -6646289031434726341
+    second: TEM1_BlockTile14
+  - first:
+      213: 8366513114609115931
+    second: TEM1_BlockTile10
+  - first:
+      213: 4078750928849746163
+    second: TEM1_BlockTile11
+  - first:
+      213: -6788241216012375154
+    second: TEM1_BlockTile12
+  - first:
+      213: -8883398623267205398
+    second: TEM1_BlockTile15
+  - first:
+      213: 2450987481864555686
+    second: TEM1_BlockTile16
+  - first:
+      213: -1163284546512871721
+    second: TEM1_BlockTile17
+  - first:
+      213: -2742845880664278758
+    second: Temple_Tile_set_1_20
+  - first:
+      213: 2717117977014347223
+    second: TEM1_WallTile1
+  - first:
+      213: -806402374485903197
+    second: TEM1_WallTile2
+  - first:
+      213: -6469325010645653179
+    second: TEM1_WallTile3
+  - first:
+      213: -3847128323947405487
+    second: TEM1_WallTile4
+  - first:
+      213: -5518074365252248553
+    second: TEM1_WallTile5
+  - first:
+      213: -3563067620784026413
+    second: TEM1_WallTile6
+  - first:
+      213: 5158350837007318061
+    second: TEM1_WallTile7
+  - first:
+      213: -8236385024998090767
+    second: TEM1_WallTile8
+  - first:
+      213: 8524837932394168083
+    second: TEM1_WallTile9
+  - first:
+      213: -859642307731968731
+    second: TEM1_WallTile10
+  - first:
+      213: -238075771247827062
+    second: TEM1_WallTile11
+  - first:
+      213: -2077221444546156266
+    second: TEM1_WallTile12
+  - first:
+      213: 5426374205739385662
+    second: TEM1_WallTile13
+  - first:
+      213: -4755795226206143876
+    second: TEM1_WallTile14
+  - first:
+      213: 890032950112263923
+    second: TEM1_WallTile15
+  - first:
+      213: -6514625164182613364
+    second: TEM1_WallTile16
+  - first:
+      213: -1675272787640173331
+    second: TEM1_WallTile17
+  - first:
+      213: -8534182963217015082
+    second: TEM1_WallTile18
+  - first:
+      213: -8285444256260126427
+    second: TEM1_WallTile19
+  - first:
+      213: -49485961422977587
+    second: TEM1_ShadowEdge
+  - first:
+      213: -3946669705107905679
+    second: TEM1_ShadowInside
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -1469,7 +1769,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Temple_Tile_set_1_1
+      name: TEM1_DualCornerWithCeiling
       rect:
         serializedVersion: 2
         x: 64
@@ -1485,6 +1785,2085 @@ TextureImporter:
       bones: []
       spriteID: 2e225063e7f66284ab4ba104c4272d2c
       internalID: -4176971634708459316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_StandingBookshelf
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 899
+        width: 97
+        height: 125
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb053bbdebeb072408edda6fcc48d8ca
+      internalID: 5708747962777843348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntRailingMid
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c02fcb894ac9e4eb8984c15cede653
+      internalID: 2426777110747952869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntRailingEnd
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 704
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbbba173678df244ac93904d711ba4f
+      internalID: -8916385137915631931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntPillar2B
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 640
+        width: 64
+        height: 128
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3ec6edafb6c67641a0dbde74e0a38e9
+      internalID: 359617718660091221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntPillar3B
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 576
+        width: 64
+        height: 192
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56fffae52f8a0b848ab0e45e30d6f6b8
+      internalID: 9109486082290656471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntCrownMould
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 680
+        width: 64
+        height: 23
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c8f47a362857e6478147aa0414e13b0
+      internalID: -2154639969042431291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntBaseBoard
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 670
+        width: 32
+        height: 9
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83b985f9800db274195b4e333c79db9f
+      internalID: 1621629817812950065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntWindowMed
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 564
+        width: 78
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7671e276f83294ea597d370916b0f3
+      internalID: 9141002751749297157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_PotionYellow
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 938
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e81b99730f552a42b11f34242eaa926
+      internalID: 959857719606146189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_PotionBlue
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 938
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc35b86fa6aac0b49bce9641b80f1135
+      internalID: 4572769794695390802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_PotionGreen
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 938
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6481e979eb5bce429528527506cd02c
+      internalID: -1177902006301280765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_PotionRed
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 938
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75a2fa94d90fd91409b41381faf1fb2b
+      internalID: 7250090837025390103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_PotionEmpty
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 938
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d779f09cdf244747a9e3d24dd7edd0d
+      internalID: -8160143487575978529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_PotionEmptyDark
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 938
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92dca8608cd5cb344ade988030128dca
+      internalID: 8460887995374926494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_PotionFill
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 939
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94ba6aeedc42cf419fd15b9f73667fd
+      internalID: -2285308488459871642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_LargeChainW
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 906
+        width: 22
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a25802a951c97ae4eb23999d706da4f4
+      internalID: 9091777924314660840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_LargeChainF
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 906
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab9dac0bb3faad3459f4dd33b8f68fc5
+      internalID: -3586598557223451021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_LargeChainBrokenW
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 912
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 167d6dafff2885442a9c27c22f6a3c74
+      internalID: 7120881170881414151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_LargeChainBrokenF
+      rect:
+        serializedVersion: 2
+        x: 694
+        y: 914
+        width: 6
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e30239201144942ab22957297a3010
+      internalID: 7193782430356195975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnDBlue
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 1018
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69861bdf23d0ad846b48ac506c4865ad
+      internalID: 2697609696839434777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnDPurple
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 1012
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 533a861aa5116814b953c0fbbf5f90d7
+      internalID: 6452959550687351292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnDBrown
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1005
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a714df6dd31bc7344ac8a6178330a0aa
+      internalID: -5602005325984952691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnDGreen
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 999
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521e1e057c2bb3647b655446d64dc19d
+      internalID: -835439033361466900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnBrown
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 992
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01261136100b7849bb3e0cacbcba661
+      internalID: -5227183580142223170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnRed
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 986
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5d158002c02a7e48a26cc7d4f33651b
+      internalID: 8254983950360813586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnBlue
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 979
+        width: 24
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aee79e8cd98bb34cb8ca2f074a8430c
+      internalID: 8853697580706226078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnGreen
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 972
+        width: 25
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe73d23dd184fa348a09f60dba08ff69
+      internalID: -7348449236912429205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnOrange
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 966
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a91f440d46320d543b5058062ae93ada
+      internalID: 9088585380509480477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTurnTan
+      rect:
+        serializedVersion: 2
+        x: 642
+        y: 960
+        width: 24
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c5895a5e6c91994ea6dbfdf50a391e0
+      internalID: 2575119308062072488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideOrange
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 1017
+        width: 27
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 765c7dc2f3fc22f44812df80a2d10797
+      internalID: 6427463347123499843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideDRed
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 1011
+        width: 21
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb51172f9928ae42914b46afc9ee11d
+      internalID: -8023863581333650048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideDGreen
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 1004
+        width: 23
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d601bc793352346a92ab6c8b6c3499
+      internalID: 2778469423463341962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideTan
+      rect:
+        serializedVersion: 2
+        x: 676
+        y: 998
+        width: 23
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 202750e82cdff21458011b4ef589c7b5
+      internalID: -7467722090768603194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideBlue
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 992
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab00ff5bf20c354f91a3575301eac23
+      internalID: -6985666675503879749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideDBlue
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 985
+        width: 28
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15cbab04fc65b0547a43b08e36804fe3
+      internalID: -726703350912692575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideDBrown
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 979
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6899b284611b64e964dd51c9bc308c
+      internalID: -3406076046682427563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideBrown
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 973
+        width: 25
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b0905f29a65374489f0faa04a6e1a2f
+      internalID: 6430750208151260706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideNavyBlue
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 967
+        width: 27
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3fa286ba88e90a429bfed28f3305eb3
+      internalID: -8221885389387490817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookSideFadedRed
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 960
+        width: 26
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8bd00d0a3500744d81c9afe16bb6c7c
+      internalID: 2400282557455071673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookRed
+      rect:
+        serializedVersion: 2
+        x: 700
+        y: 999
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28109730f62334a45854e84d558f7ad6
+      internalID: 1611832692204334748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookDarkBlue
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 999
+        width: 5
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b68c153d808c2842bb3d6e4fcb43822
+      internalID: -3903678896380672486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookFadedRed
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 999
+        width: 6
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 712e3ba49b6f761428caf0fbe16ab171
+      internalID: -340635646379251677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookGreen
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 999
+        width: 6
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca3272ee5b71b34409fb7d203032b97f
+      internalID: 9182569388533023678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookOldGreen
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 999
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16bf6dc6a40d90244bcbba87378ab993
+      internalID: -2890013081291134780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookFadedGreen
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 999
+        width: 7
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 502e4a9603ad8f94bbd61895d6cd2c72
+      internalID: -6530946191294519541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookTan
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 999
+        width: 5
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41e7db7b8502f7d44a9a97e13e2faf8d
+      internalID: 7715023667505688368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookFadedOrange
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 999
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e0d17ba3e03ce429676f268bb917e7
+      internalID: 3878415257864743890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookPurple
+      rect:
+        serializedVersion: 2
+        x: 753
+        y: 999
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c059f94ede030fb4e8dff16b6775cb77
+      internalID: -8994297247332914467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BookBlue
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 999
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56aab8c89a54d15478c6c0d02cdbc92e
+      internalID: -2924591501456985343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 986
+        width: 64
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa97ed3789eb0cc4ba7b34bd16403db6
+      internalID: -434284939286609030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ClayPotRedmark
+      rect:
+        serializedVersion: 2
+        x: 748
+        y: 961
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0e1558fef09ee54bb0c6554cfcfabb2
+      internalID: -630779236406394295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ClayPotShard1
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 977
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ba9621b6a8e3984a9b75f4420977538
+      internalID: 1325219715869501863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ClayPotShard2
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 968
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1668d9d9aa344448ad619766ad64211
+      internalID: -8484827473515746138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ClayPotShard3
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 961
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bef4f09def30144f99e8943292ef098
+      internalID: 6274021073674387353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ClayPotShard5
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 962
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12d7013a594f61b4f8f6f7c371e062e0
+      internalID: -3867039230288048411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ClayPotShard6
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 962
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8df1420889e184d45af354f2b2e3eb0c
+      internalID: -8345242170280778649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ClayPotShard4
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 972
+        width: 17
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4cab29f17c4ec34cac7ec08fd5d47b6
+      internalID: -3088926274106444439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_TileWallWTop
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 960
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e03567dd5d3fb4e8f5343acb8dc74e
+      internalID: -1007234501528862065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 810
+        width: 32
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 603191626ff039c47a7583b007938498
+      internalID: -1563805829077874297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile2
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 810
+        width: 32
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfbc332c81647734dab348e8c87f36c7
+      internalID: -4176971634708459316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile3
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 785
+        width: 26
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7766ce4ec1c21f54abdeb06dd156eead
+      internalID: -5108666182933110509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile4
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 785
+        width: 38
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a4dcfaea44d82d4d8e4b727e04cf32c
+      internalID: -5254972049596249316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile5
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 761
+        width: 41
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62829633b94a3374781b79f0b6f6662e
+      internalID: 4324733108956434104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile6
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 761
+        width: 23
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fe312ac7b338d5408f69336ddf5b24a
+      internalID: 2154004404368944800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTileTilted3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 769
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd23d80528e071947b9d57e690c687c6
+      internalID: -3187190131969354971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTileTilted1
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 802
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4148c40b24ff2da47964ff890389682a
+      internalID: 1775239774049427385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTileTilted2
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 794
+        width: 44
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4345d6312d019a4b9ea727e3686f9bd
+      internalID: 3048591476695142085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile7
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 737
+        width: 19
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa4d19a79941814cb99d25267a54e20
+      internalID: -6505552218038438154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile8
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 737
+        width: 20
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51a7a56daad30c843b726124175bf65e
+      internalID: -7010695017116030100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile9
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 737
+        width: 27
+        height: 23
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e397c2a8fe7d9d45a1a39c2f18bb56a
+      internalID: -879992183506008251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile13
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 737
+        width: 39
+        height: 24
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 368550b30a8128041b3b6a6d1ecfa2c7
+      internalID: 6154571318521111823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile14
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 737
+        width: 25
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bb7f9629f409ac4f9c67503bd1cf44c
+      internalID: -6646289031434726341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile10
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 715
+        width: 23
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34f338e508719424485863d64ebc0352
+      internalID: 8366513114609115931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile11
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 715
+        width: 24
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d88623ecc3cf6b54c988531bf5f22b00
+      internalID: 4078750928849746163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 715
+        width: 18
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b300205c7f78b924bb1e3f4e916d445f
+      internalID: -6788241216012375154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 715
+        width: 25
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5873f9ca9ab3b48889dfae490ee68e
+      internalID: -8883398623267205398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile16
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 715
+        width: 14
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d97d86b3b04998141be2409dbff36273
+      internalID: 2450987481864555686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BlockTile17
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 715
+        width: 26
+        height: 21
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb7763ba23034148adb00c45b441119
+      internalID: -1163284546512871721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 687
+        width: 27
+        height: 23
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ace4cf40dc9618744a2b7effaa6f2e2e
+      internalID: 2717117977014347223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile2
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 672
+        width: 26
+        height: 15
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499fe317cc506c24dbdc3fefa2debff6
+      internalID: -806402374485903197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile3
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 647
+        width: 27
+        height: 25
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3bcf1acd4932ee42a6844a63dcb6d03
+      internalID: -6469325010645653179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile4
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 630
+        width: 25
+        height: 17
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60e508f770c6bed499cae2f12ba2f386
+      internalID: -3847128323947405487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile5
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 602
+        width: 25
+        height: 29
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d37e2eef516eb949a6b97688f08461d
+      internalID: -5518074365252248553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile6
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 583
+        width: 25
+        height: 20
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea48faff905d94147a549375f3f7d503
+      internalID: -3563067620784026413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile7
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 564
+        width: 25
+        height: 20
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38954ffcbcd0b5e47b257b800ed24b55
+      internalID: 5158350837007318061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile8
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 670
+        width: 23
+        height: 40
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6a0631e010203841980ad9eb7177db7
+      internalID: -8236385024998090767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile9
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 660
+        width: 23
+        height: 10
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be891af7daffd3e49a6bfe14771ea2b0
+      internalID: 8524837932394168083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile10
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 643
+        width: 23
+        height: 17
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8f5195e87ac0c42ba4fbcedca76bce
+      internalID: -859642307731968731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile11
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 612
+        width: 24
+        height: 32
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2293b5e054d53574eacaf17f3f454362
+      internalID: -238075771247827062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile12
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 574
+        width: 20
+        height: 39
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f034bfd66adb2a1469b2941189074245
+      internalID: -2077221444546156266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile13
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 564
+        width: 22
+        height: 10
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f9e511e2a7f164ebfbdb865c3bdc7c
+      internalID: 5426374205739385662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile14
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 690
+        width: 23
+        height: 20
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d1fca6ef4ac3df439d6fd83767ff9f2
+      internalID: -4755795226206143876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile15
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 644
+        width: 23
+        height: 46
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aff411d26af03e4b840059438ddf57b
+      internalID: 890032950112263923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile16
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 623
+        width: 23
+        height: 21
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09dc35875aae1240b75bf251166bc4a
+      internalID: -6514625164182613364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile17
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 609
+        width: 22
+        height: 14
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dcbdcdbb81b2b3428740c190903be91
+      internalID: -1675272787640173331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile18
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 584
+        width: 25
+        height: 26
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87e2c87713146314b8acd28599cbc60b
+      internalID: -8534182963217015082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_WallTile19
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 564
+        width: 22
+        height: 21
+      alignment: 3
+      pivot: {x: 1, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 873016b23222f704794c8c58c9f9a542
+      internalID: -8285444256260126427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ShadowEdge
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e33595e50a8a5488e1494b83b91d0e
+      internalID: -49485961422977587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ShadowInside
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 832
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4aa16039129cb764195cd2547e37627d
+      internalID: -3946669705107905679
       vertices: []
       indices: 
       edges: []
