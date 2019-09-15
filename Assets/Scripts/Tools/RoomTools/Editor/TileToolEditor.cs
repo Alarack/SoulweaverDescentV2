@@ -14,17 +14,53 @@ public class TileToolEditor : Editor
 
         _tileTool = (TileTool)target;
 
+        EditorGUILayout.Separator();
+        EditorGUILayout.Separator();
+
+        EditorGUILayout.LabelField("Creating Foreground Rows and Columns", EditorStyles.boldLabel);
+
+        EditorGUILayout.BeginHorizontal();
+
         if(GUILayout.Button("Create Row")) {
 
             _tileTool.CreateRow();
 
         }
 
-        if (GUILayout.Button("Colorize Tiles")) {
+        if (GUILayout.Button("Create Column")) {
 
-            _tileTool.ColorizeTiles();
+            _tileTool.CreateColumn();
 
         }
+
+        EditorGUILayout.EndHorizontal();
+
+        EditorGUILayout.Separator();
+
+        EditorGUILayout.LabelField("Recent Creation Tools", EditorStyles.boldLabel);
+
+        if (GUILayout.Button("Delete")) {
+
+            _tileTool.DeleteRecent();
+        }
+
+        EditorGUILayout.Separator();
+
+        EditorGUILayout.BeginHorizontal();
+
+        if (GUILayout.Button("Colorize")) {
+            _tileTool.ColorizeTiles();
+        }
+
+        if (GUILayout.Button("FlipX")) {
+            _tileTool.FlipSpritesX();
+        }
+
+        if (GUILayout.Button("FlipY")) {
+            _tileTool.FlipSpritesY();
+        }
+
+        EditorGUILayout.EndHorizontal();
 
 
     }
