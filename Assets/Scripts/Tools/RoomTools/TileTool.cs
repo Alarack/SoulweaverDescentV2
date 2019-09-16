@@ -16,6 +16,7 @@ public class TileTool : MonoBehaviour {
     public float gridUnit = 0.25f;
 
     [Header("Colors")]
+    public float colorIncrament = 5f;
     public List<Color> colors = new List<Color>();
 
 
@@ -72,8 +73,25 @@ public class TileTool : MonoBehaviour {
         }
     }
 
+    public void DarkenColors() {
+        int count = colors.Count;
+        for (int i = 0; i < count; i++) {
+            Color shiftedColor = new Color(colors[i].r - colorIncrament, colors[i].g - colorIncrament, colors[i].b - colorIncrament, colors[i].a);
+            colors[i] = shiftedColor;
+        }
+    }
+
+    public void LightenColors() {
+        int count = colors.Count;
+        for (int i = 0; i < count; i++) {
+            Color shiftedColor = new Color(colors[i].r + colorIncrament, colors[i].g + colorIncrament, colors[i].b + colorIncrament, colors[i].a);
+            colors[i] = shiftedColor;
+        }
+    }
+
     public void CreateRow() {
         currentSprites.Clear();
+        //DeleteRecent();
         float totalWidth = 0f;
         Transform container = tileContainer == null ? transform : tileContainer;
 
