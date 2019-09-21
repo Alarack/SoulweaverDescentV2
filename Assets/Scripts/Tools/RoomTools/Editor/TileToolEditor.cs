@@ -24,17 +24,28 @@ public class TileToolEditor : Editor
         if(GUILayout.Button("Create Row")) {
 
             _tileTool.CreateRow();
-
         }
 
         if (GUILayout.Button("Create Column")) {
 
             _tileTool.CreateColumn();
-
         }
 
         EditorGUILayout.EndHorizontal();
+        EditorGUILayout.Separator();
 
+
+        EditorGUILayout.LabelField("Color Shift Tools", EditorStyles.boldLabel);
+        EditorGUILayout.BeginHorizontal();
+
+        if (GUILayout.Button("Darken")) {
+            _tileTool.DarkenColors();
+        }
+        if (GUILayout.Button("Lighten")) {
+            _tileTool.LightenColors();
+        }
+
+        EditorGUILayout.EndHorizontal();
         EditorGUILayout.Separator();
 
         EditorGUILayout.LabelField("Recent Creation Tools", EditorStyles.boldLabel);
@@ -62,6 +73,11 @@ public class TileToolEditor : Editor
 
         EditorGUILayout.EndHorizontal();
 
+        EditorGUILayout.Separator();
+
+        if (GUILayout.Button("Set Sprite Layer")) {
+            _tileTool.SetSpriteLayer();
+        }
 
     }
 

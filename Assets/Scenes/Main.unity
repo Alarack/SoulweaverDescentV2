@@ -1517,10 +1517,12 @@ MonoBehaviour:
   gridWidth: 0
   gridHeight: 0
   gridUnit: 0.25
+  colorIncrament: 0.05
   colors:
-  - {r: 1, g: 1, b: 1, a: 1}
-  - {r: 0.8490566, g: 0.8490566, b: 0.8490566, a: 1}
-  - {r: 0.7735849, g: 0.7735849, b: 0.7735849, a: 1}
+  - {r: 1.05, g: 1.05, b: 1.05, a: 1}
+  - {r: 0.89905673, g: 0.89905673, b: 0.89905673, a: 1}
+  - {r: 0.82358485, g: 0.82358485, b: 0.82358485, a: 1}
+  orderInLayer: 0
   startPosition: {fileID: 1283305228}
   tileContainer: {fileID: 1283305228}
   tileDatabase: {fileID: 11400000, guid: 75626a7b60cf80244b0a6ffbc77dd7db, type: 2}
