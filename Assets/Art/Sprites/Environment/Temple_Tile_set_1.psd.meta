@@ -476,6 +476,9 @@ TextureImporter:
   - first:
       213: -3946669705107905679
     second: TEM1_ShadowInside
+  - first:
+      213: -2251951193331628404
+    second: blockoutpixel
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -3836,7 +3839,7 @@ TextureImporter:
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 28, y: 10, z: 28, w: 46}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -3857,13 +3860,34 @@ TextureImporter:
         height: 64
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      border: {x: 28, y: 10, z: 28, w: 46}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
       spriteID: 4aa16039129cb764195cd2547e37627d
       internalID: -3946669705107905679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: blockoutpixel
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 703
+        width: 1
+        height: 1
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26a1deb64fa25fe459cd1c5480c88635
+      internalID: -2251951193331628404
       vertices: []
       indices: 
       edges: []
