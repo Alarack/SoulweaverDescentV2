@@ -73,6 +73,11 @@ public class TileToolEditor : Editor
 
         EditorGUILayout.EndHorizontal();
 
+        EditorGUILayout.Separator();
+
+        if (GUILayout.Button("Set Sprite Layer")) {
+            _tileTool.SetSpriteLayer();
+        }
 
     }
 

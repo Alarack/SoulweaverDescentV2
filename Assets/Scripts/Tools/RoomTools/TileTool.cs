@@ -19,6 +19,8 @@ public class TileTool : MonoBehaviour {
     public float colorIncrament = 5f;
     public List<Color> colors = new List<Color>();
 
+    [Header("Layer")]
+    public int orderInLayer;
 
 
     [Header("Location")]
@@ -70,6 +72,16 @@ public class TileTool : MonoBehaviour {
             int randomColorIndex = Random.Range(0, colors.Count);
 
             currentSprites[i].color = colors[randomColorIndex];
+        }
+    }
+
+    public void SetSpriteLayer() {
+        int count = currentSprites.Count;
+        for (int i = 0; i < count; i++) {
+            if (currentSprites[i] == null)
+                continue;
+
+            currentSprites[i].sortingOrder = orderInLayer;
         }
     }
 

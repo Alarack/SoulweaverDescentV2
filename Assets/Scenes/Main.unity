@@ -1522,6 +1522,7 @@ MonoBehaviour:
   - {r: 1.05, g: 1.05, b: 1.05, a: 1}
   - {r: 0.89905673, g: 0.89905673, b: 0.89905673, a: 1}
   - {r: 0.82358485, g: 0.82358485, b: 0.82358485, a: 1}
+  orderInLayer: 0
   startPosition: {fileID: 1283305228}
   tileContainer: {fileID: 1283305228}
   tileDatabase: {fileID: 11400000, guid: 75626a7b60cf80244b0a6ffbc77dd7db, type: 2}
