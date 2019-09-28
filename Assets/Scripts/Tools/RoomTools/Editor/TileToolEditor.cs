@@ -75,9 +75,17 @@ public class TileToolEditor : Editor
 
         EditorGUILayout.Separator();
 
-        if (GUILayout.Button("Set Sprite Layer")) {
+        EditorGUILayout.BeginHorizontal();
+
+        if (GUILayout.Button("Set Sprite Order")) {
             _tileTool.SetSpriteLayer();
         }
+
+        if (GUILayout.Button("Set Sprite Sort Layer")) {
+            _tileTool.SetSpriteSortingLayer();
+        }
+
+        EditorGUILayout.EndHorizontal();
 
     }
 

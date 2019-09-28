@@ -21,6 +21,7 @@ public class TileTool : MonoBehaviour {
 
     [Header("Layer")]
     public int orderInLayer;
+    public string sortingLanyerName;
 
 
     [Header("Location")]
@@ -82,6 +83,16 @@ public class TileTool : MonoBehaviour {
                 continue;
 
             currentSprites[i].sortingOrder = orderInLayer;
+        }
+    }
+
+    public void SetSpriteSortingLayer() {
+        int count = currentSprites.Count;
+        for (int i = 0; i < count; i++) {
+            if (currentSprites[i] == null)
+                continue;
+
+            currentSprites[i].sortingLayerName = sortingLanyerName;
         }
     }
 
