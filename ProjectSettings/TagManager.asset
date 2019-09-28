@@ -41,3 +41,45 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Overlapped Decorations -15
+    uniqueID: 2949778125
+    locked: 0
+  - name: Blackout Layer -10
+    uniqueID: 1408586471
+    locked: 0
+  - name: Background and Decorations -7
+    uniqueID: 479260779
+    locked: 0
+  - name: Background and Decorations -6
+    uniqueID: 3481431689
+    locked: 0
+  - name: Floor Tiles -5
+    uniqueID: 3183626559
+    locked: 0
+  - name: Floor Tiles -4
+    uniqueID: 200742199
+    locked: 0
+  - name: Floor Tiles -3
+    uniqueID: 2691349393
+    locked: 0
+  - name: Background Overlap -2
+    uniqueID: 3237465333
+    locked: 0
+  - name: Overlapping Decorations -1
+    uniqueID: 2602319343
+    locked: 0
+  - name: Player 0
+    uniqueID: 4213006109
+    locked: 0
+  - name: Player Particles 1
+    uniqueID: 2868320191
+    locked: 0
+  - name: Overlapping Shadows 10
+    uniqueID: 1235202193
+    locked: 0
+  - name: Overlapping Background 11
+    uniqueID: 4092782667
+    locked: 0
+  - name: Overlapping Decorations 15
+    uniqueID: 1924130957
+    locked: 0
