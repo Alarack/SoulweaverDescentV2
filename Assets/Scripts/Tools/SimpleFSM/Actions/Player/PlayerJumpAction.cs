@@ -70,12 +70,14 @@ public class PlayerJumpAction : BaseStateAction {
 
     private void ResetJump()
     {
+        owner.AnimHelper.PlayAnimTrigger("Land");
+
         if (/*playerController.MyBody.velocity.y <= 0f &&*/ currentJumpCount > 0 /*&& playerController.RayController.IsGrounded == true*/)
         {
             //Debug.Log("Reseting jump");
 
             currentJumpCount = 0;
-            owner.AnimHelper.PlayAnimTrigger("Land");
+            //owner.AnimHelper.PlayAnimTrigger("Land");
             owner.AnimHelper.PlayOrStopAnimBool("Jumping", false);
 
         }
