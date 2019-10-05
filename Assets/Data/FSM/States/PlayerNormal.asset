@@ -16,5 +16,6 @@ MonoBehaviour:
   onExitActions: []
   onUpdateActions:
   - {fileID: 11400000, guid: 65efa8ca1f5f3b640ae0195bbff61399, type: 2}
+  - {fileID: 11400000, guid: 27151951123384c428aca7fb07377f67, type: 2}
   onFixedUpdateActions:
   - {fileID: 11400000, guid: 6ed9ad5ab354a3b4e9a4a7d8647fa15b, type: 2}

@@ -41,6 +41,16 @@ public class GameManager : MonoBehaviour
         return null;
     }
 
+    public static Ability GetAbility(AbilityData data) {
+        int count = allAbilities.Count;
+        for (int i = 0; i < count; i++) {
+            if (allAbilities[i].AbilityData == data)
+                return allAbilities[i];
+        }
+
+        return null;
+    }
+
     public static Ability GetAbilityByOwner(GameObject owner, string abilityName)
     {
         int count = allAbilities.Count;

@@ -28,16 +28,16 @@ TextureImporter:
     second: Jump
   - first:
       213: 2210767502464728786
-    second: RedPixelAnim_Atlas_8
+    second: Attack1_1
   - first:
       213: 3120520832006161323
-    second: RedPixelAnim_Atlas_9
+    second: Attack1_2
   - first:
       213: 1630965345350836739
-    second: RedPixelAnim_Atlas_10
+    second: Attack2_1
   - first:
       213: -859090361658673576
-    second: RedPixelAnim_Atlas_11
+    second: Attack2_2
   - first:
       213: 8267097290902536425
     second: RedPixelAnim_Atlas_12
@@ -317,7 +317,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPixelAnim_Atlas_8
+      name: Attack1_1
       rect:
         serializedVersion: 2
         x: 0
@@ -338,7 +338,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPixelAnim_Atlas_9
+      name: Attack1_2
       rect:
         serializedVersion: 2
         x: 128
@@ -359,7 +359,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPixelAnim_Atlas_10
+      name: Attack2_1
       rect:
         serializedVersion: 2
         x: 256
@@ -380,7 +380,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: RedPixelAnim_Atlas_11
+      name: Attack2_2
       rect:
         serializedVersion: 2
         x: 384
@@ -577,7 +577,7 @@ TextureImporter:
         width: 128
         height: 128
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

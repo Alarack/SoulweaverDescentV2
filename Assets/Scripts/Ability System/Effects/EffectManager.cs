@@ -165,7 +165,14 @@ public class EffectManager {
         return null;
     }
 
+    public Effect GetFirstEffect() {
+        if (effects.Count > 0)
+            return effects[0];
+
+        return null;
+    }
+
     #endregion
 
-    
+
 }

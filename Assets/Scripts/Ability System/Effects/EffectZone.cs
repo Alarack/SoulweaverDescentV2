@@ -47,6 +47,8 @@ public abstract class EffectZone : MonoBehaviour {
             AnimHelper.PlayAnimTrigger(parentEffect.effectZoneInfo.effectZoneAnimTrigger);
         }
 
+        CreateSpawnEffect();
+
         //Debug.Log("Effect zone created");
 
     }
@@ -177,6 +179,39 @@ public abstract class EffectZone : MonoBehaviour {
 
         GameObject impact = Instantiate(loadedPrefab, loc, Quaternion.identity) as GameObject;
         Destroy(impact, 2f);
+    }
+
+    protected void CreateSpawnEffect() {
+
+        if (string.IsNullOrEmpty(spawnEffect) == true) {
+            //Debug.Log(parentEffect.effectName + " has no impact effect name. " + impactEffect + " has been given.");
+            return;
+        }
+
+
+        GameObject loadedPrefab = Resources.Load("SpawnEffects/" + spawnEffect) as GameObject;
+
+        if (loadedPrefab == null) {
+            Debug.Log("Couldn't load " + spawnEffect);
+            return;
+        }
+
+
+        Transform location = parentEffect.Source.Entity().EffectDelivery.GetOriginPoint(parentEffect.effectOrigin);
+
+
+        GameObject effect = Instantiate(loadedPrefab, location.position, Quaternion.identity) as GameObject;
+
+        EntityMovement.FacingDirection facing = parentEffect.Source.Entity().Movement.Facing;
+
+        if (facing == EntityMovement.FacingDirection.Left) {
+            effect.transform.localRotation = Quaternion.Euler(0f, 0f, 180f);
+        }
+
+
+
+        Destroy(effect, 2f);
+
     }
 
 }

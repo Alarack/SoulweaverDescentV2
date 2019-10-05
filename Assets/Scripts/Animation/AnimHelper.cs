@@ -76,6 +76,10 @@ public class AnimHelper : MonoBehaviour
         }
     }
 
+    public AnimatorStateInfo GetCurrentAnimatorStateInfo(int index) {
+        return Anim.GetCurrentAnimatorStateInfo(index);
+    }
+
     public void SetFloat(string floatName, float value) {
         Anim.SetFloat(floatName, value);
     }
