@@ -407,7 +407,7 @@ public class Ability
         if (UseDuration > 0)
             InUse = true;
 
-        //Debug.Log(abilityName + " has been activated");
+        Debug.Log(abilityName + " has been activated");
 
         targets.Clear();
 
@@ -655,7 +655,9 @@ public class AbilityCondition
         StatRatio,
         HasStatus,
         Grounded,
-        HasTarget
+        HasTarget,
+        IsMoving,
+        HasResource
     }
 
     public bool requiredCondition;
@@ -674,6 +676,10 @@ public class AbilityCondition
 
     public Constants.StatusType hasStatusType;
 
+    public BaseStat.StatType targetResource;
+    public float resourceValueAmount;
+    public bool spendResource;
+
 
     public bool CheckCondition(GameObject target, GameObject source)
     {
@@ -691,10 +697,21 @@ public class AbilityCondition
                 result = CheckStatRatio(target, source);
                 break;
             case AbilityConditionType.HasStatus:
+                result = CheckHasStatus(target, source);
                 break;
             case AbilityConditionType.Grounded:
+                result = CheckGrounded(target, source);
                 break;
             case AbilityConditionType.HasTarget:
+                result = HasTarget(source);
+                break;
+
+            case AbilityConditionType.HasResource:
+                result = CheckResourceValue(source);
+                break;
+
+            case AbilityConditionType.IsMoving:
+                result = CheckIsMoving(target, source);
                 break;
             default:
                 break;
@@ -767,6 +784,35 @@ public class AbilityCondition
         AISensor enemyAI = (source.Entity() as EntityEnemy).AISensor;
 
         result = enemyAI.ClosestTarget != null;
+
+        return result;
+    }
+
+    public bool CheckIsMoving(GameObject target, GameObject source) {
+        bool result = false;
+
+        float xVel = compareAgainstTarget == true ? Mathf.Abs(target.Entity().Movement.MyBody.velocity.x) : Mathf.Abs(source.Entity().Movement.MyBody.velocity.x);
+
+        result = xVel > 0.1f; //compareAgainstTarget == true ? target.Entity().Movement.MyPhysics.Velocity.x != 0 : source.Entity().Movement.MyPhysics.Velocity.x != 0;
+
+
+        //Debug.Log(xVel + " is x velocity. " + result);
+        //Debug.Log(result + " is weather or not the checked target is moving");
+
+        return result;
+    }
+
+    public bool CheckResourceValue(GameObject source) {
+        bool result = false;
+
+        float resourceValue = source.Entity().EntityStats.GetStatModifiedValue(targetResource);
+
+        if (resourceValue >= resourceValueAmount)
+            result = true;
+
+        if (result == true && spendResource) {
+            StatAdjustmentManager.ApplyUntrackedStatMod(source.Entity().EntityStats, source.Entity().EntityStats, targetResource, resourceValueAmount);
+        }
 
         return result;
     }

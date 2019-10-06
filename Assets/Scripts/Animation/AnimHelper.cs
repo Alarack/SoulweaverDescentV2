@@ -10,6 +10,7 @@ public class AnimHelper : MonoBehaviour
     public Animator Anim { get; private set; }
     private Action callback;
 
+    private Effect currentEffect;
 
     private void Awake()
     {
@@ -55,7 +56,7 @@ public class AnimHelper : MonoBehaviour
         Anim.SetBool(boolName, play);
     }
 
-    public bool PlayAnimTrigger(string trigger)
+    public bool PlayAnimTrigger(string trigger, Effect effect = null)
     {
         if (Anim == null)
             return false;
@@ -67,6 +68,8 @@ public class AnimHelper : MonoBehaviour
         try
         {
             Anim.SetTrigger(trigger);
+            currentEffect = effect;
+            
             return true;
         }
         catch (Exception e)
@@ -125,6 +128,18 @@ public class AnimHelper : MonoBehaviour
         SendEffectDeliveryEvent(param);
     }
 
+    public void BeginEffectDelivery() {
+
+        if(currentEffect != null) {
+
+            Debug.Log("Recieving Anim Event for " + currentEffect.ParentAbility.abilityName);
+
+            currentEffect.BeginDelivery(currentEffect.weaponDelivery);
+            currentEffect = null;
+        }
+
+    }
+
 
     private void SendEffectDeliveryEvent(AnimationEvent param)
     {
@@ -150,6 +165,7 @@ public class AnimHelper : MonoBehaviour
             return;
         }
 
+        Debug.Log("Begining Delivery for " + targetAbility.abilityName);
         targetEffect.BeginDelivery(targetEffect.weaponDelivery);
 
     }

@@ -286,7 +286,7 @@ public class Effect
     public virtual void PlayEffectAnim()
     {
         //TODO: this assumes the source is always an entity, it could be a projectile
-        animStarted = Source.Entity().AnimHelper.PlayAnimTrigger(animationTrigger); // Animation trigger will start the delivery at the right time.
+        animStarted = Source.Entity().AnimHelper.PlayAnimTrigger(animationTrigger, this); // Animation trigger will start the delivery at the right time.
 
         if (animStarted == false)// Start Delivery Instantly if there isn't an animation.
         {
