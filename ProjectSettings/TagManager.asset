@@ -80,6 +80,9 @@ TagManager:
   - name: Overlapping Background 11
     uniqueID: 4092782667
     locked: 0
-  - name: Overlapping Decorations 15
+  - name: Overlapping Decorations 12
     uniqueID: 1924130957
+    locked: 0
+  - name: World Effect Particles 15
+    uniqueID: 3342045747
     locked: 0

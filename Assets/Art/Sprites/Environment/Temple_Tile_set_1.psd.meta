@@ -572,6 +572,9 @@ TextureImporter:
   - first:
       213: -8645624332629546518
     second: TEM1_Doormask
+  - first:
+      213: -5070341422317131647
+    second: TEM1_Tabletop
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -4526,6 +4529,27 @@ TextureImporter:
       bones: []
       spriteID: d907e5e042f3d0d47bba054bb47e8e59
       internalID: -8645624332629546518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Tabletop
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 967
+        width: 97
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20561d2efc900594899eb00ec3326a9b
+      internalID: -5070341422317131647
       vertices: []
       indices: 
       edges: []
