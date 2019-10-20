@@ -16,25 +16,30 @@ MonoBehaviour:
   - spritePrefab: {fileID: 39912348027884208, guid: 9689672f961ca334c81a98ca01389c25,
       type: 3}
     tileName: 
+    disable: 0
     height: 0.5
     width: 1
   - spritePrefab: {fileID: 5715214960556225417, guid: 0bf825b62d5926945a48cda21007c2ad,
       type: 3}
     tileName: 
+    disable: 0
     height: 1
     width: 0.5
   - spritePrefab: {fileID: 7202504904061198103, guid: 53efe956cecb78845830af87481d5533,
       type: 3}
     tileName: 
+    disable: 0
     height: 1
     width: 1
   - spritePrefab: {fileID: 8244154678382120582, guid: 72a037660273fc44db82e1cc99e210b4,
       type: 3}
     tileName: 
+    disable: 0
     height: 0.5
     width: 0.5
   - spritePrefab: {fileID: 4372777626342266482, guid: 039515b8bd778204f8b762d20c308936,
       type: 3}
     tileName: 
+    disable: 1
     height: 0.25
     width: 0.25

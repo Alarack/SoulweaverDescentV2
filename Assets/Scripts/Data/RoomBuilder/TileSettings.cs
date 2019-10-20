@@ -8,53 +8,18 @@ public class TileSettings : ScriptableObject
     public List<SpriteProperties> sprites = new List<SpriteProperties>();
 
 
+    public SpriteProperties GetRandomTile() {
 
+        List<SpriteProperties> possibleTiles = new List<SpriteProperties>();
 
-    public SpriteProperties GetRandomFittingSprite(CellContainer cellContainer) {
-        SpriteProperties result = null;
-
-        //List<SpriteProperties> potentialSprites = new List<SpriteProperties>();
-        //int count = sprites.Count;
-        //for (int i = 0; i < count; i++) {
-        //    if (sprites[i].width <= freeWidth || sprites[i].height <= freeHeight)
-        //        potentialSprites.Add(sprites[i]);
-        //}
-
-        //if (potentialSprites.Count > 0) {
-        //    int randomIndex = Random.Range(0, potentialSprites.Count);
-        //    result = potentialSprites[randomIndex];
-        //}
-
-
-
-        return result;
-
-
-    }
-
-
-    public SpriteProperties GetRandomFittingSprite(float freeWidth, float freeHeight) {
-        SpriteProperties result = null;
-
-        List<SpriteProperties> potentialSprites = new List<SpriteProperties>();
         int count = sprites.Count;
         for (int i = 0; i < count; i++) {
-            if (sprites[i].width <= freeWidth || sprites[i].height <= freeHeight)
-                potentialSprites.Add(sprites[i]);
-        }
-
-        if(potentialSprites.Count > 0) {
-            int randomIndex = Random.Range(0, potentialSprites.Count);
-            result = potentialSprites[randomIndex];
+            if (sprites[i].disable == false)
+                possibleTiles.Add(sprites[i]);
         }
 
 
-
-        return result;
-    }
-
-    public SpriteProperties GetRandomTile() {
-        int randomIndex = Random.Range(0, sprites.Count);
+        int randomIndex = Random.Range(0, possibleTiles.Count);
         return sprites[randomIndex];
     }
 }
@@ -66,6 +31,7 @@ public class SpriteProperties {
 
     public GameObject spritePrefab;
     public string tileName;
+    public bool disable;
 
     [Header("Size")]
     public float height;
