@@ -40,6 +40,18 @@ MonoBehaviour:
   - spritePrefab: {fileID: 4372777626342266482, guid: 039515b8bd778204f8b762d20c308936,
       type: 3}
     tileName: 
-    disable: 1
+    disable: 0
     height: 0.25
+    width: 0.25
+  - spritePrefab: {fileID: 6586030114098753019, guid: 90cf52ea8f3a7554b81189986ba3d415,
+      type: 3}
+    tileName: 
+    disable: 0
+    height: 0.25
+    width: 0.5
+  - spritePrefab: {fileID: 1917771781479262408, guid: c24fee6f5d8c0004bb11740445cd6b89,
+      type: 3}
+    tileName: 
+    disable: 0
+    height: 0.5
     width: 0.25

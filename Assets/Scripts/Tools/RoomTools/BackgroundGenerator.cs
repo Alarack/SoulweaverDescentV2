@@ -10,15 +10,18 @@ public class BackgroundGenerator : MonoBehaviour {
 
     [Header("Transforms")]
     public Transform root;
+    public Vector2 rootResetPoint;
     public Transform holder;
+
+    public float xOffSet = 0.25f;
 
 
     [Header("Sizes")]
 
     public int backgroundWidth;
     public int backgroundHeight;
-    public int cellWidth = 4;
-    public int cellHeight = 4;
+    public int cellWidth = 5;
+    public int cellHeight = 5;
 
     private int[,] filledSpaces;
 
@@ -34,19 +37,13 @@ public class BackgroundGenerator : MonoBehaviour {
 
     private Vector2 startPos;
 
+    [SerializeField]
+    private List<GameObject> tileContainers = new List<GameObject>();
+
     private void Start() {
         startPos = root.localPosition - (Vector3)Vector2.one;
     }
 
-
-    //private void Update() {
-    //    if (Input.GetKeyDown(KeyCode.G)) {
-    //        //FillGrid();
-    //        //root.transform.localPosition += (Vector3)Vector2.right;      
-
-    //        MakeBG();
-    //    }
-    //}
 
     public void ColorizeTiles() {
         int count = currentSprites.Count;
@@ -61,29 +58,62 @@ public class BackgroundGenerator : MonoBehaviour {
         }
     }
 
+    public void ResetRoot() {
+        root.localPosition = rootResetPoint;
+    }
+
+    private void ClearTiles() {
+        int count = tileContainers.Count;
+        for (int i = 0; i < count; i++) {
+            if (tileContainers[i] == null) {
+                tileContainers.Remove(tileContainers[i]);
+                continue;
+            }
+            DestroyImmediate(tileContainers[i].gameObject);
+        }
+
+        currentSprites.Clear();
+        tileContainers.Clear();
+        //ResetRoot();
+    }
 
     public void MakeBG() {
+        ResetRoot();
         startPos = root.localPosition - (Vector3)Vector2.one;
-        currentSprites.Clear();
+        ClearTiles();
         float startY = startPos.y;
+        float startX = startPos.x;
 
         for (int x = 0; x <= backgroundWidth; x++) {
-            startPos = new Vector2(startPos.x + 1, startPos.y);
+            startPos = new Vector2(startPos.x + (cellWidth / 4f), startPos.y);
 
             for (int y = 0; y <= backgroundHeight; y++) {
-                startPos = new Vector2(startPos.x, startPos.y + 1);
 
-                FillGrid(startPos);
+                startPos = new Vector2(startPos.x /*- 0.2085f*/, startPos.y + (cellHeight / 4f));
+                GameObject container = FillGrid(startPos);
+
+
+
+                if (y.IsOdd())
+                    container.transform.localPosition = new Vector3(x * (float)(cellWidth / 4f) + xOffSet, y * (float)(cellHeight / 4f));
+                else
+                    container.transform.localPosition = new Vector3(x * (float)(cellWidth / 4f), y * (float)(cellHeight / 4f));
+
             }
 
             startPos = new Vector2(startPos.x, startY);
         }
     }
 
-    private void FillGrid(Vector2 rootPos) {
+    private GameObject FillGrid(Vector2 rootPos) {
         filledSpaces = new int[cellWidth, cellHeight];
 
-        root.transform.localPosition = (Vector3)rootPos;
+        GameObject container = new GameObject();
+        container.name = "Tile";
+        container.transform.SetParent(root);
+        //container.transform.localPosition = rootPos;
+        tileContainers.Add(container);
+        //root.transform.localPosition = (Vector3)rootPos;
 
         for (int x = 0; x < cellWidth; x++) {
             for (int y = 0; y < cellHeight; y++) {
@@ -97,25 +127,25 @@ public class BackgroundGenerator : MonoBehaviour {
                     }
 
                     FillInSpaces(x, y, (int)(targetSprite.width * 4), (int)(targetSprite.height * 4));
-                    GameObject tile = Instantiate(targetSprite.spritePrefab, root) as GameObject;
+                    GameObject tile = Instantiate(targetSprite.spritePrefab, container.transform) as GameObject;
 
                     currentSprites.Add(tile.GetComponentInChildren<SpriteRenderer>());
                     Vector2 targetLocation = new Vector2(x / 4f, y / 4f);
 
                     tile.transform.localPosition = targetLocation;
-                    tile.transform.SetParent(holder, true);
+                    //tile.transform.SetParent(holder, true);
 
                 }
             }
         }
 
-        
+        return container;
     }
 
     private void FillInSpaces(int xPos, int yPos, int width, int height) {
         for (int x = xPos; x <= xPos + width - 1; x++) {
             for (int y = yPos; y <= yPos + height - 1; y++) {
-                if(filledSpaces[x,y] == 1) {
+                if (filledSpaces[x, y] == 1) {
                     Debug.Log(x + "," + y + " is already full");
                 }
 

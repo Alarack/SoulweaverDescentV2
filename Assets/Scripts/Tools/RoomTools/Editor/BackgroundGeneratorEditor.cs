@@ -4,8 +4,7 @@ using UnityEngine;
 using UnityEditor;
 
 [CustomEditor(typeof(BackgroundGenerator))]
-public class BackgroundGeneratorEditor : Editor
-{
+public class BackgroundGeneratorEditor : Editor {
 
     private BackgroundGenerator _backgroundGenerator;
 
@@ -25,12 +24,12 @@ public class BackgroundGeneratorEditor : Editor
 
             _backgroundGenerator.MakeBG();
         }
-    
 
+        if(GUILayout.Button("Reset Root")) {
+            _backgroundGenerator.ResetRoot();
+        }
 
-
-
-    EditorGUILayout.EndHorizontal();
+        EditorGUILayout.EndHorizontal();
 
         EditorGUILayout.Separator();
 
