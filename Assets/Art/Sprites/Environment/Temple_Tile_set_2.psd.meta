@@ -1,0 +1,754 @@
+fileFormatVersion: 2
+guid: f55e0729868b4b142b7d30d59cb37bfc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4434083421559335698
+    second: TEM2_WaystoneDish
+  - first:
+      213: -5327286419687381718
+    second: TEM2_Waystone1
+  - first:
+      213: -7313105336483720554
+    second: TEM2_Waystone2
+  - first:
+      213: 6306964350564310196
+    second: TEM2_WaystoneVertebrae1
+  - first:
+      213: 7808048082951190372
+    second: TEM2_WaystoneVertebrae2
+  - first:
+      213: 6658262156459186469
+    second: TEM2_WayRock1
+  - first:
+      213: -7922298997585989079
+    second: TEM2_WayRock2
+  - first:
+      213: -1260021931388683699
+    second: TEM2_WayRock3
+  - first:
+      213: -2472000615832299405
+    second: TEM2_WayRock5
+  - first:
+      213: 9065005545290151882
+    second: TEM2_WayRock6
+  - first:
+      213: 8405287694897798227
+    second: TEM2_WayRock7
+  - first:
+      213: -1688138619406769880
+    second: TEM2_WayRock8
+  - first:
+      213: -2202951429109281923
+    second: TEM2_WayRock11
+  - first:
+      213: -2292726651739289859
+    second: TEM2_WayRock10
+  - first:
+      213: 4937036782445161909
+    second: TEM2_WayRock4
+  - first:
+      213: 6807187160056017159
+    second: TEM2_WayRock9
+  - first:
+      213: 1204208683197146416
+    second: TEM2_WayRock12
+  - first:
+      213: 6361884462203336879
+    second: TEM2_WayRock13
+  - first:
+      213: -4346524538419264743
+    second: TEM2_WayRock14
+  - first:
+      213: -3396557727585354395
+    second: TEM2_WayRock15
+  - first:
+      213: -8055878373778816282
+    second: TEM2_WayRock16
+  - first:
+      213: -9147141688156901443
+    second: Temple_Tile_set_2_16
+  - first:
+      213: -8706505590304309068
+    second: TEM2_WayRock17
+  - first:
+      213: -5265239365027979686
+    second: TEM2_LargeWindow
+  - first:
+      213: -1310644174058241739
+    second: TEM2_Baseboard
+  - first:
+      213: 6648230962957764943
+    second: TEM2_Shelving
+  - first:
+      213: -4185483984863652709
+    second: TEM2_BrokenPillar
+  - first:
+      213: -6354607095417845555
+    second: TEM2_Pillar
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 1024
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 2
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TEM2_WaystoneDish
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 962
+        width: 330
+        height: 62
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70398e7aa42295b488d40545e9d9ff2e
+      internalID: -4434083421559335698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_Waystone1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 774
+        width: 183
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e973577f1f9a93d4c83a9dd62767dc13
+      internalID: -5327286419687381718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_Waystone2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 774
+        width: 183
+        height: 185
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d195df9b595278e4984f29360acc9659
+      internalID: -7313105336483720554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WaystoneVertebrae1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 615
+        width: 356
+        height: 153
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f94c7c443690b46b80f5e4a3d35c10
+      internalID: 6306964350564310196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WaystoneVertebrae2
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 403
+        width: 326
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04b5ff29b912191439155c59025e5b32
+      internalID: 7808048082951190372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 340
+        width: 49
+        height: 57
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b550b46d16c3ce74998d52ddb1b40fc0
+      internalID: 6658262156459186469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock2
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 325
+        width: 37
+        height: 74
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 938af2105488e3447a57c87e83743e5a
+      internalID: -7922298997585989079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock3
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 360
+        width: 29
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 090435394686fcd49ac012b30a8f7dd5
+      internalID: -1260021931388683699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock5
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 329
+        width: 42
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e00bf8954d01c94fbb2a58cee11533e
+      internalID: -2472000615832299405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock6
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 292
+        width: 53
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d403dd3c746a7a41acd7eb085a39fe2
+      internalID: 9065005545290151882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock7
+      rect:
+        serializedVersion: 2
+        x: 238
+        y: 347
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4b8543ddf97cb4da7490e28d76199a
+      internalID: 8405287694897798227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock8
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 283
+        width: 44
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c199a1cada54a78449cdfcbb0337fdbb
+      internalID: -1688138619406769880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock11
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 256
+        width: 49
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe95d845ef6b4c4dbf4da61d0c4e624
+      internalID: -2202951429109281923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 264
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 686d3454d2150e64aa727a829e75851e
+      internalID: -2292726651739289859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock4
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 321
+        width: 31
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ffc3e5d9944ebf469e0a8bafc39b278
+      internalID: 4937036782445161909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock9
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 290
+        width: 47
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6acaaa57a7181f4fb85a89f36255ed6
+      internalID: 6807187160056017159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock12
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 259
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97fecc91cb408094b85a9409c44c0fd3
+      internalID: 1204208683197146416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock13
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 260
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8de51ca280d1800418d5bbddaf17be18
+      internalID: 6361884462203336879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock14
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 235
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb7e3cace40e6e94e941cfeac20eb140
+      internalID: -4346524538419264743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock15
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 225
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dac912d27da0cf4fa898d3c7ac515e4
+      internalID: -3396557727585354395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock16
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 227
+        width: 20
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 161b65e1144004746b225bfd9b2db747
+      internalID: -8055878373778816282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_WayRock17
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 229
+        width: 37
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf6179a263a18b40b89b582e02e1d72
+      internalID: -8706505590304309068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_LargeWindow
+      rect:
+        serializedVersion: 2
+        x: 887
+        y: 754
+        width: 137
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f15880ce98dddd4081397641bbfc151
+      internalID: -5265239365027979686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_Baseboard
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 742
+        width: 64
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e72dd16099472d749a50b4f5789c8c74
+      internalID: -1310644174058241739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_Shelving
+      rect:
+        serializedVersion: 2
+        x: 781
+        y: 486
+        width: 242
+        height: 214
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45b7722e56488874381dc7c166be9b79
+      internalID: 6648230962957764943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_BrokenPillar
+      rect:
+        serializedVersion: 2
+        x: 761
+        y: 703
+        width: 124
+        height: 321
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f5c53c703dbcc4ca470558f00b75d9
+      internalID: -4185483984863652709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM2_Pillar
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 703
+        width: 156
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10e19128acaa9bd418677a141ece9ef5
+      internalID: -6354607095417845555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 1
+  pSDShowRemoveMatteOption: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
