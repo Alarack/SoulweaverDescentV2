@@ -50,9 +50,9 @@ public class PlayerJumpAction : BaseStateAction {
     private void Jump()
     {
         //Debug.Log("Trying to Jump");
-
+            
         float desiredJumpForce = playerController.RayController.IsGrounded ? playerController.jumpForce : playerController.arialJumpForce;
-
+        
         if (currentJumpCount >= playerController.maxJumpCount)
         {
             //Debug.Log("TOo many jumps: " + currentJumpCount);
