@@ -639,8 +639,8 @@ TextureImporter:
         y: 754
         width: 137
         height: 269
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -656,13 +656,13 @@ TextureImporter:
       name: TEM2_Baseboard
       rect:
         serializedVersion: 2
-        x: 959
+        x: 960
         y: 742
-        width: 64
+        width: 62
         height: 11
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 30, y: 0, z: 26, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -723,8 +723,8 @@ TextureImporter:
         y: 703
         width: 156
         height: 320
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
