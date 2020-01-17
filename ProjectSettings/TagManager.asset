@@ -17,8 +17,8 @@ TagManager:
   - Enemy
   - Ground
   - Prop_NoColllision
-  - 
-  - 
+  - Background Post Process Layer 1
+  - Background Post Process Layer 2
   - 
   - 
   - 
@@ -40,6 +40,15 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Parallax Layer (1) Back Particles -25
+    uniqueID: 2292909683
+    locked: 0
+  - name: Parallax Layer (1) Assets -23
+    uniqueID: 2955970515
+    locked: 0
+  - name: Parallax Layer (1) Fore Particles -20
+    uniqueID: 2557211597
     locked: 0
   - name: Overlapped Decorations -15
     uniqueID: 2949778125
@@ -65,6 +74,9 @@ TagManager:
   - name: Background Overlap -2
     uniqueID: 3237465333
     locked: 0
+  - name: Overlapped Deco Particles -1.5
+    uniqueID: 3092291565
+    locked: 0
   - name: Overlapping Decorations -1
     uniqueID: 2602319343
     locked: 0
@@ -73,6 +85,9 @@ TagManager:
     locked: 0
   - name: Player Particles 1
     uniqueID: 2868320191
+    locked: 0
+  - name: Overlapping Stuctures 2
+    uniqueID: 4083304875
     locked: 0
   - name: Overlapping Shadows 10
     uniqueID: 1235202193
@@ -85,4 +100,7 @@ TagManager:
     locked: 0
   - name: World Effect Particles 15
     uniqueID: 3342045747
+    locked: 0
+  - name: UI Layer 20
+    uniqueID: 1611283651
     locked: 0
