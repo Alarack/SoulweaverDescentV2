@@ -9,6 +9,7 @@ public class PlayerJumpAction : BaseStateAction {
     private int currentJumpCount;
     private Action jumpResetCallBack;
 
+    private bool jumped;
 
     public PlayerJumpAction(Entity owner, bool runUpdate) : base(owner, runUpdate)
     {
@@ -18,12 +19,14 @@ public class PlayerJumpAction : BaseStateAction {
 
     public override void RegisterEvents()
     {
-        playerController.onCollideWithGround += ResetJump;
+        //playerController.onCollideWithGround += ResetJump;
+        playerController.RayController.onGroundedAction += ResetJump;
     }
 
     public override void UnregisterEvents()
     {
-        playerController.onCollideWithGround -= ResetJump;
+        //playerController.onCollideWithGround -= ResetJump;
+        playerController.RayController.onGroundedAction -= ResetJump;
     }
 
     public override void Execute()
@@ -59,6 +62,7 @@ public class PlayerJumpAction : BaseStateAction {
             return;
         }
 
+        
         owner.AnimHelper.PlayOrStopAnimBool("Jumping", true);
 
         playerController.MyBody.velocity = new Vector2(playerController.MyBody.velocity.x, 0f);
@@ -66,10 +70,15 @@ public class PlayerJumpAction : BaseStateAction {
         playerController.MyBody.AddForce(Vector2.up * desiredJumpForce);
 
         currentJumpCount++;
+        //jumped = true;
     }
 
     private void ResetJump()
     {
+        //if (jumped == false)
+        //    return;
+
+        //Debug.Log("Landing");
         owner.AnimHelper.PlayAnimTrigger("Land");
 
         if (/*playerController.MyBody.velocity.y <= 0f &&*/ currentJumpCount > 0 /*&& playerController.RayController.IsGrounded == true*/)
@@ -79,7 +88,7 @@ public class PlayerJumpAction : BaseStateAction {
             currentJumpCount = 0;
             //owner.AnimHelper.PlayAnimTrigger("Land");
             owner.AnimHelper.PlayOrStopAnimBool("Jumping", false);
-
+            //jumped = false;
         }
     }
 }

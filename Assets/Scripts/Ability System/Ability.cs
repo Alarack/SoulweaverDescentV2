@@ -471,7 +471,7 @@ public class Ability
                 RecoveryManager.SpendCharge();
             }
 
-            BufferMe(result);
+            //BufferMe(result);
             return result;
         }
 
@@ -487,7 +487,7 @@ public class Ability
         {
             if (MeetsRequiredConditions(null) == false)
             {
-                //Debug.Log(abilityName + " failed to meet requirements");
+                Debug.Log(abilityName + " failed to meet requirements");
                 result = false;
             }
 
@@ -498,7 +498,7 @@ public class Ability
         }
 
 
-        BufferMe(result);
+        //BufferMe(result);
         return result;
     }
 

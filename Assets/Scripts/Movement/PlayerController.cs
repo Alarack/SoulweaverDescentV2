@@ -27,187 +27,175 @@ public class PlayerController : EntityMovement {
     [Header("Variable Jump Variables")]
     public float descendingFallMod = 1.5f;
     public float ascendingFallMod = 1f;
+    public float wallSlideFallMod = 0.5f;
+    public float maxFallSpeed = 20f;
 
     [Header("Dash Variables")]
     public float dashDuration = 0.5f;
     //public float dashSpeed = 30f;
     public float dashCooldown = 3f;
 
-    //[Header("Attack Variable")]
-    //public GameObject attackGameObject;
-    //public GameObject attackGameObjectVariant;
-    //public Transform leftOrigin;
-    //public Transform rightOrigin;
 
-    //private GameObject currentAttackGameObject;
-
-
-    //public bool isDashActive;
 
 
     public System.Action onCollideWithGround;
 
-    public override void Initialize(Entity owner)
-    {
+    public override void Initialize(Entity owner) {
         base.Initialize(owner);
     }
 
-    private void Start()
-    {
+    private void Start() {
         //FSM TESTING
         FSMState normalState = Owner.FSMManager.GetState("PlayerNormal");
         if (normalState != null)
             Owner.EntityFSM.ChangeState(normalState);
-        else
-        {
+        else {
             Debug.LogError("Can't find normal state");
         }
     }
 
 
 
-    protected override void Update()
-    {
+    protected override void Update() {
         base.Update();
     }
 
-    protected override void ConfigureHorizontalDirection()
-    {
+    protected override void ConfigureHorizontalDirection() {
 
-        if (StatusManager.CheckForStatus(Owner.gameObject, Constants.StatusType.MovementAffecting) == true)
-        {
+        if (StatusManager.CheckForStatus(Owner.gameObject, Constants.StatusType.MovementAffecting) == true) {
 
             //currentHorizontalDirection = Facing == FacingDirection.Left ? -1 : 1;
             return;
 
         }
-        else if (StatusManager.CheckForStatus(Owner.gameObject, Constants.StatusType.ForceMaxSpeed) == true)
-        {
+        else if (StatusManager.CheckForStatus(Owner.gameObject, Constants.StatusType.ForceMaxSpeed) == true) {
             currentHorizontalDirection = Facing == FacingDirection.Left ? -1 : 1;
         }
-        else
-        {
+        else {
             currentHorizontalDirection = GameInput.Horizontal;
         }
 
 
-        if (RayController.IsHittingWall && RayController.IsGrounded == false && MyBody.velocity.y <= 0)
-        {
+        if (RayController.IsHittingWall && RayController.IsGrounded == false && MyBody.velocity.y <= 0) {
             currentHorizontalDirection = 0f;
         }
         UpdateFacing();
     }
 
-    protected override void FixedUpdate()
-    {
+    protected override void FixedUpdate() {
         base.FixedUpdate();
 
         if (jumpType == JumpType.Variable)
             VariableFall();
     }
 
-    //public override void MoveHorizontal()
-    //{
-    //    base.MoveHorizontal();
-    //}
 
-    #region ATTACKS
+    protected override void UpdateFacing() {
 
-    //private void Attack()
-    //{
-    //    currentAttackGameObject = attackGameObject;
-    //    Owner.AnimHelper.SetAnimEventAction(CreateAttackInstance);
-    //    Owner.AnimHelper.PlayAnimTrigger("Attack1");
-    //}
+        //if(RayController.IsWallSliding == true && GameInput.Horizontal < 0 && Owner.SpriteRenderer.flipX == true) {
+        //    Owner.SpriteRenderer.flipX = false;
+        //    return;
+        //}
 
-    //private void Attack2()
-    //{
-    //    currentAttackGameObject = attackGameObjectVariant;
-    //    Owner.AnimHelper.SetAnimEventAction(CreateAttackInstance);
-    //    Owner.AnimHelper.PlayAnimTrigger("Attack1");
-    //}
+        //if (RayController.IsWallSliding == true && GameInput.Horizontal > 0 && Owner.SpriteRenderer.flipX == false) {
+        //    Owner.SpriteRenderer.flipX = true;
+        //    return;
+        //}
 
-    //private void CreateAttackInstance()
-    //{
-    //    Transform origin = GetAttackOriginByFacing();
 
-    //    GameObject attack = Instantiate(currentAttackGameObject, origin.transform.position, currentAttackGameObject.transform.rotation) as GameObject;
-    //    attack.transform.SetParent(origin, false);
-    //    attack.transform.localPosition = Vector2.zero;
-    //    HitBox hit = attack.GetComponent<HitBox>();
-
-    //    Vector2 force = new Vector2(hit.xForce, hit.yForce);
-
-    //    hit.SetKnockBack(CalcKnockBack(force));
-    //    if (GetFacing() == FacingDirection.Left)
-    //    {
-    //        attack.transform.localScale = new Vector3(attack.transform.localScale.x * -1, 1, 1);
-    //    }
-    //    //Debug.Log(attack.name + " Created");
-    //}
-
-    //private Vector2 CalcKnockBack(Vector2 knockBack)
-    //{
-    //    Vector2 result = knockBack;
-
-    //    if (Facing == FacingDirection.Left)
-    //    {
-    //        result = new Vector2(knockBack.x * -1, knockBack.y);
-    //    }
-
-    //    return result;
-    //}
-
-    //private Transform GetAttackOriginByFacing()
-    //{
-    //    FacingDirection currentFacing = GetFacing();
-    //    return currentFacing == FacingDirection.Left ? leftOrigin : rightOrigin;
-    //}
-
-    #endregion
-
-    protected override void UpdateFacing()
-    {
-        if (GameInput.Horizontal < 0 && Owner.SpriteRenderer.flipX == false)
-        {
+        if (GameInput.Horizontal < 0 && Owner.SpriteRenderer.flipX == false) {
             Owner.SpriteRenderer.flipX = true;
             SwapWeaponSide();
         }
 
-        if (GameInput.Horizontal > 0 && Owner.SpriteRenderer.flipX == true)
-        {
+        if (GameInput.Horizontal > 0 && Owner.SpriteRenderer.flipX == true) {
             Owner.SpriteRenderer.flipX = false;
             SwapWeaponSide();
         }
     }
 
 
-    private void VariableFall()
-    {
+    private void VariableFall() {
+
+        Owner.AnimHelper.PlayOrStopAnimBool("WallSliding", RayController.IsWallSliding);
+
         Vector2 desiredFallVelocity = Vector2.zero;
 
-        if (MyBody.velocity.y < 0)
-        {
+        if (RayController.IsWallSliding == true) {
+            desiredFallVelocity = Vector2.up * Physics2D.gravity.y * wallSlideFallMod * Time.deltaTime;
+        }
+        else if (MyBody.velocity.y < 0) {
             desiredFallVelocity = Vector2.up * Physics2D.gravity.y * descendingFallMod * Time.deltaTime;
         }
-        else if (MyBody.velocity.y > 0 && GameInput.JumpHeld == false)
-        {
+        else if (MyBody.velocity.y > 0 && GameInput.JumpHeld == false) {
             desiredFallVelocity = Vector2.up * Physics2D.gravity.y * ascendingFallMod * Time.deltaTime;
         }
 
+
         MyBody.velocity += desiredFallVelocity;
+
+
+        if (RayController.IsWallSliding == true && MyBody.velocity.y <= -maxFallSpeed * wallSlideFallMod) {
+            MyBody.velocity = new Vector2(MyBody.velocity.x, -maxFallSpeed * wallSlideFallMod);
+        }
+        else if (MyBody.velocity.y <= -maxFallSpeed) {
+            MyBody.velocity = new Vector2(MyBody.velocity.x, -maxFallSpeed);
+        }
+
+
     }
 
 
-    private void OnCollisionEnter2D(Collision2D other)
-    {
+    private void OnCollisionEnter2D(Collision2D other) {
         if (LayerTools.IsLayerInMask(groundLayer, other.gameObject.layer) == false)
             return;
 
-        //Debug.Log("Collided with ground");
+        //Debug.Log(RayController.IsHittingWall + " is hitting wall");
+        //Debug.Log(RayController.IsGrounded + " is grounded");
 
-        if (onCollideWithGround != null)
-            onCollideWithGround();
+        //if (RayController.IsHittingWall)
+        //    return;
+
+        //Debug.Log("Collided with ground");
+        //Vector2 point = other.contacts[0].point;
+
+        float lowestPoint = other.contacts[0].point.y;
+        int count = other.contacts.Length;
+        for (int i = 0; i < count; i++) {
+
+            //Debug.Log(other.contacts[i].point.x);
+
+            if (other.contacts[i].point.y < lowestPoint)
+                lowestPoint = other.contacts[i].point.y;
+
+        }
+
+
+        //float xPos = other.contacts[0].point.x;
+        //float myXPos = transform.position.x;
+
+        //if(xPos > myXPos) {
+        //    float diff = xPos - myXPos;
+
+        //    Debug.Log("Amount to the Right: " + diff);
+        //}
+        //else {
+        //    float diff = myXPos - xPos;
+        //    Debug.Log("Amount to the Left: " + diff);
+        //}
+
+
+        //float adjustedMyX = transform.position.x - (BoxCollider.bounds.size.x / 2f);
+
+
+
+        //Debug.Log(lowestPoint + " is the contact y pos");
+        //Debug.Log((transform.position.y /*- ((BoxCollider.bounds.size.y / 2))*/) + " is my y pos");
+
+        if (lowestPoint < transform.position.y /*- ((BoxCollider.bounds.size.y / 2))*/) {
+            //Debug.Log("Collided With Somthing Below");
+            onCollideWithGround?.Invoke();
+        }
 
     }
 

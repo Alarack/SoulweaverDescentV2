@@ -8,21 +8,29 @@ public class Parallax : MonoBehaviour {
 
 
     public float minDistance;
+    public float maxDistance;
 
     private Vector3 lastCamPos;
 
     private bool inRange;
+    private bool outOfRange;
+
+    private Vector3 startPos;
 
     private void Start() {
         if (cameraTransform == null)
             cameraTransform = Camera.main.transform;
 
         lastCamPos = cameraTransform.position;
+        startPos = transform.position;
     }
 
     private void Update() {
-        if(minDistance != 0f)
+        if (minDistance != 0f)
             inRange = CheckMinDistance();
+
+        if (maxDistance > 0f)
+            outOfRange = CheckMaxDistance();
     }
 
     private void LateUpdate() {
@@ -30,7 +38,7 @@ public class Parallax : MonoBehaviour {
 
 
         if (minDistance != 0f) {
-            if(inRange)
+            if (inRange)
                 UpdatePosition(deltaMovement);
         }
         else {
@@ -43,7 +51,17 @@ public class Parallax : MonoBehaviour {
 
     private void UpdatePosition(Vector3 deltaMovement) {
         //Vector3 deltaMovement = cameraTransform.position - lastCamPos;
-        transform.position += new Vector3(deltaMovement.x * parallaxEffectMultiplier.x, deltaMovement.y * parallaxEffectMultiplier.y);
+        Vector3 newPos = new Vector3(deltaMovement.x * parallaxEffectMultiplier.x, deltaMovement.y * parallaxEffectMultiplier.y);
+
+        if (outOfRange == true) {
+            float newDist = Vector2.Distance((transform.position + deltaMovement), startPos);
+            float oldDist = Vector2.Distance(transform.position, startPos);
+
+            if (newDist > oldDist)
+                return;
+        }
+
+        transform.position += newPos;
 
     }
 
@@ -51,6 +69,11 @@ public class Parallax : MonoBehaviour {
         float distance = Vector2.Distance(cameraTransform.position, transform.position);
 
         return distance <= minDistance;
+    }
+    private bool CheckMaxDistance() {
+        float distance = Vector2.Distance(startPos, transform.position);
+
+        return distance >= maxDistance;
     }
 
 
