@@ -24,8 +24,10 @@ public class RayCastController {
     protected EntityMovement movement;
 
     public Action onGroundedAction;
+    public Action onWallJump;
 
     protected bool previousGrounded;
+    protected bool previousHittingWall;
 
     public RayCastController(EntityMovement movement) {
         this.movement = movement;
@@ -40,7 +42,7 @@ public class RayCastController {
         DetectWall();
         CheckForLedge();
         CheckGround();
-        
+
     }
 
 
@@ -82,6 +84,9 @@ public class RayCastController {
     }
 
     protected void DetectWall() {
+
+        List<bool> results = new List<bool>();
+
         for (int i = 0; i < horizontalRayCount; i++) {
             Vector2 rayOrigin = movement.Facing == FacingDirection.Left ? rayOrigins.bottomLeft : rayOrigins.bottomRight;
             Vector2 direction = movement.Facing == FacingDirection.Left ? Vector2.left : Vector2.right;
@@ -92,21 +97,34 @@ public class RayCastController {
 
             if (hit.collider != null /*IsGrounded == false &&*/ /* && movement.MyBody.velocity.y <= 0f*/) {
                 //Debug.Log(hit.collider.gameObject.name);
-                IsHittingWall = true;
+                //IsHittingWall = true;
+                results.Add(true);
                 //Debug.Log("Hitting wall");
                 break;
             }
             else {
-                IsHittingWall = false;
+                //IsHittingWall = false;
+                results.Add(false);
                 //Debug.Log("NOT Hitting wall");
             }
         }
+
+        previousHittingWall = IsHittingWall;
+
+        if (results.Contains(true))
+            IsHittingWall = true;
+        else
+            IsHittingWall = false;
+
+        if(IsHittingWall == true && previousHittingWall == false) {
+            onGroundedAction?.Invoke();
+            //onWallJumpLanded?.Invoke();
+        }
+
     }
 
     private void CheckGround() {
         float rayLength = 0.5f /*+ SKIN_WIDTH*/;
-
-        //bool tempGround = false;
 
         List<bool> results = new List<bool>();
 
@@ -117,30 +135,18 @@ public class RayCastController {
             rayOrigin += (Vector2.right * verticalRaySpacing * i);
             RaycastHit2D hit = Physics2D.Raycast(rayOrigin, rayDirection, rayLength, movement.groundLayer);
 
-
             Debug.DrawRay(rayOrigin, rayDirection, Color.red);
 
             if (hit.collider != null) {
                 if (rayDirection.y <= 0) {
-
-                    //if (IsGrounded == false) {
-                        //IsGrounded = true;
-                        //onGroundedAction?.Invoke();
-                        //Debug.Log("GROUNDED: reset jump action goes here");
-                        results.Add(true);
-                        break;
-                    //}
-
                     //IsGrounded = true;
+                    results.Add(true);
+                    break;
                 }
 
-                break;
-                //else {
-                //    IsGrounded = false;
-                //}
+                //break;
             }
             else {
-                //IsGrounded = false;
                 results.Add(false);
                 //Debug.Log("NOT Grounded");
             }
@@ -148,13 +154,14 @@ public class RayCastController {
 
         previousGrounded = IsGrounded;
 
-        if (results.Contains(true)) 
+        if (results.Contains(true))
             IsGrounded = true;
         else
             IsGrounded = false;
 
-        if(IsGrounded == true && previousGrounded == false) {
+        if (IsGrounded == true && previousGrounded == false) {
             Debug.Log("Landed");
+            movement.Owner.AnimHelper.PlayAnimTrigger("Land");
             onGroundedAction?.Invoke();
         }
 

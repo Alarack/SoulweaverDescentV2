@@ -16,7 +16,7 @@ public class EntityMovement : MonoBehaviour {
     public BoxCollider2D BoxCollider { get; private set; }
 
     public float Speed { get { return Owner.EntityStats.GetStatModifiedValue(BaseStat.StatType.MoveSpeed); } }
-
+    public float airDragMod = 1f;
     protected float currentHorizontalDirection;
     //public float desiredSpeed;
     //public float baseMoveSpeed;
@@ -93,7 +93,16 @@ public class EntityMovement : MonoBehaviour {
         //if (Owner is EntityEnemy)
         //    Debug.Log("No movement affecting status, so moving normal");
 
-        MyBody.velocity = new Vector2(currentHorizontalDirection * Speed, MyBody.velocity.y);
+        if(RayController.IsGrounded == false && RayController.IsHittingWall == false && Mathf.Abs( GameInput.Horizontal) !=1) {
+            MyBody.velocity = new Vector2(MyBody.velocity.x * airDragMod, MyBody.velocity.y);
+            //Debug.Log("AirMotion");
+        }
+        else {
+            MyBody.velocity = new Vector2(currentHorizontalDirection * Speed, MyBody.velocity.y);
+            //Debug.Log("Other Motion");
+        }
+
+
     }
 
     protected virtual void ConfigureHorizontalDirection()
