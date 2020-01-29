@@ -41,8 +41,17 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Parallax Layer (3)
+    uniqueID: 925637433
+    locked: 0
+  - name: Parallax Layer (2)
+    uniqueID: 2880225073
+    locked: 0
   - name: Parallax Layer (1) Back Particles -25
     uniqueID: 2292909683
+    locked: 0
+  - name: Parallax Layer (1) BG Mosaic Tiles -24
+    uniqueID: 2720736487
     locked: 0
   - name: Parallax Layer (1) Assets -23
     uniqueID: 2955970515
@@ -53,8 +62,14 @@ TagManager:
   - name: Overlapped Decorations -15
     uniqueID: 2949778125
     locked: 0
+  - name: Background Mosaic Tiles -11
+    uniqueID: 578284991
+    locked: 0
   - name: Blackout Layer -10
     uniqueID: 1408586471
+    locked: 0
+  - name: Background and Decorations -8
+    uniqueID: 1510445207
     locked: 0
   - name: Background and Decorations -7
     uniqueID: 479260779
@@ -101,6 +116,15 @@ TagManager:
   - name: World Effect Particles 15
     uniqueID: 3342045747
     locked: 0
-  - name: UI Layer 20
+  - name: Foreground Parallax Particles 19
+    uniqueID: 1669539141
+    locked: 0
+  - name: Foreground Parallax Objects 20
+    uniqueID: 404918017
+    locked: 0
+  - name: Foreground Parallax Particles 21
+    uniqueID: 2656279681
+    locked: 0
+  - name: UI Layer 25
     uniqueID: 1611283651
     locked: 0
