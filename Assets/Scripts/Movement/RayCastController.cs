@@ -23,7 +23,8 @@ public class RayCastController {
     protected BoxCollider2D boxCollider;
     protected EntityMovement movement;
 
-    public Action onGroundedAction;
+    public Action onGrounded;
+    public Action onWallTouched;
     public Action onWallJump;
 
     protected bool previousGrounded;
@@ -117,13 +118,17 @@ public class RayCastController {
             IsHittingWall = false;
 
         if(IsHittingWall == true && previousHittingWall == false) {
-            onGroundedAction?.Invoke();
+            onWallTouched?.Invoke();
+            Debug.Log("Touched a wall");
             //onWallJumpLanded?.Invoke();
         }
 
     }
 
     private void CheckGround() {
+
+        bool wasGrounded = IsGrounded;
+
         float rayLength = 0.5f /*+ SKIN_WIDTH*/;
 
         List<bool> results = new List<bool>();
@@ -152,17 +157,25 @@ public class RayCastController {
             }
         }
 
-        previousGrounded = IsGrounded;
+        //previousGrounded = IsGrounded;
 
         if (results.Contains(true))
             IsGrounded = true;
         else
             IsGrounded = false;
 
-        if (IsGrounded == true && previousGrounded == false) {
+        if (IsGrounded == true && wasGrounded == false) {
             Debug.Log("Landed");
-            movement.Owner.AnimHelper.PlayAnimTrigger("Land");
-            onGroundedAction?.Invoke();
+
+            if(movement.Owner.AnimHelper.IsInState("Land") == false) {
+                movement.Owner.AnimHelper.PlayAnimTrigger("Land");
+            }
+            else {
+                Debug.Log("Already landing");
+            }
+
+            
+            onGrounded?.Invoke();
         }
 
         //Debug.Log(IsGrounded + " Is the state of being grounded");

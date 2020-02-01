@@ -56,6 +56,10 @@ public class AnimHelper : MonoBehaviour
         Anim.SetBool(boolName, play);
     }
 
+    public bool IsInState(string stateName) {
+        return Anim.GetCurrentAnimatorStateInfo(0).IsName(stateName);
+    }
+
     public bool PlayAnimTrigger(string trigger, Effect effect = null)
     {
         if (Anim == null)

@@ -18,12 +18,14 @@ public class PlayerJumpAction : BaseStateAction {
 
     public override void RegisterEvents() {
         //playerController.onCollideWithGround += ResetJump;
-        playerController.RayController.onGroundedAction += ResetJump;
+        playerController.RayController.onGrounded += ResetJump;
+        playerController.RayController.onWallTouched += ResetJump;
     }
 
     public override void UnregisterEvents() {
         //playerController.onCollideWithGround -= ResetJump;
-        playerController.RayController.onGroundedAction -= ResetJump;
+        playerController.RayController.onGrounded -= ResetJump;
+        playerController.RayController.onWallTouched -= ResetJump;
     }
 
     public override void Execute() {

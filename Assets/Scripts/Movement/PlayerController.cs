@@ -119,6 +119,18 @@ public class PlayerController : EntityMovement {
             Owner.SpriteRenderer.flipX = false;
             SwapWeaponSide();
         }
+
+        if(GameInput.Horizontal == 0) {
+            if(MyBody.velocity.x < 0 && Owner.SpriteRenderer.flipX == false) {
+                Owner.SpriteRenderer.flipX = true;
+                SwapWeaponSide();
+            }
+
+            if(MyBody.velocity.x > 0 && Owner.SpriteRenderer.flipX == true) {
+                Owner.SpriteRenderer.flipX = false;
+                SwapWeaponSide();
+            }
+        }
     }
 
 

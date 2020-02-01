@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
     public Transform splatHolder;
     public SpawnManager spawnManager;
     public ObjectPoolManager objectPools;
+    public CameraFollow cameraFollow;
+
+    public static CameraFollow CameraFollow { get { return Instance.cameraFollow; } }
 
     public int createdPooledObjects;
 
@@ -23,6 +26,10 @@ public class GameManager : MonoBehaviour
         spawnManager = GetComponentInChildren<SpawnManager>();
         objectPools = GetComponentInChildren<ObjectPoolManager>();
 
+    }
+
+    private void Start() {
+        
     }
 
     public static Ability GetAbility(string abilityName)
