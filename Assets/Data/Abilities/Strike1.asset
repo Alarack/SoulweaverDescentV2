@@ -23,7 +23,7 @@ MonoBehaviour:
     activationTime: 0
     keyBind: 1
   conditions:
-  - requiredCondition: 1
+  - requiredCondition: 0
     inverse: 0
     compareAgainstTarget: 0
     weightModifer: 0
@@ -37,7 +37,7 @@ MonoBehaviour:
     targetResource: 0
     resourceValueAmount: 0
     spendResource: 0
-  - requiredCondition: 1
+  - requiredCondition: 0
     inverse: 1
     compareAgainstTarget: 0
     weightModifer: 0

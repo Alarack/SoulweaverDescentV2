@@ -657,7 +657,9 @@ public class AbilityCondition
         Grounded,
         HasTarget,
         IsMoving,
-        HasResource
+        HasResource,
+        IsWallSliding,
+        IsTouchingWall
     }
 
     public bool requiredCondition;
@@ -701,6 +703,12 @@ public class AbilityCondition
                 break;
             case AbilityConditionType.Grounded:
                 result = CheckGrounded(target, source);
+                break;
+            case AbilityConditionType.IsTouchingWall:
+                result = CheckIsTouchingWall(target, source);
+                break;
+            case AbilityConditionType.IsWallSliding:
+                result = CheckIsWallSliding(target, source);
                 break;
             case AbilityConditionType.HasTarget:
                 result = HasTarget(source);
@@ -773,6 +781,22 @@ public class AbilityCondition
         bool result = false;
 
         result = compareAgainstTarget == true ? target.Entity().Movement.RayController.IsGrounded : source.Entity().Movement.RayController.IsGrounded;
+
+        return result;
+    }
+
+    public bool CheckIsWallSliding(GameObject target, GameObject source) {
+        bool result = false;
+
+        result = compareAgainstTarget == true ? target.Entity().Movement.RayController.IsWallSliding : source.Entity().Movement.RayController.IsWallSliding;
+
+        return result;
+    }
+
+    public bool CheckIsTouchingWall(GameObject target, GameObject source) {
+        bool result = false;
+
+        result = compareAgainstTarget == true ? target.Entity().Movement.RayController.IsHittingWall : source.Entity().Movement.RayController.IsHittingWall;
 
         return result;
     }

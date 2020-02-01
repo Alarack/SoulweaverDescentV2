@@ -19,8 +19,8 @@ TagManager:
   - Prop_NoColllision
   - Background Post Process Layer 1
   - Background Post Process Layer 2
-  - 
-  - 
+  - PlayerProjectile
+  - Corpse
   - 
   - 
   - 

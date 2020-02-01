@@ -16,3 +16,4 @@ MonoBehaviour:
   actionType: 8
   abilities:
   - {fileID: 11400000, guid: afadb81a01d10154098122ef7cb9a626, type: 2}
+  - {fileID: 11400000, guid: 7d21dab8b55591b44ac8916c64825f9f, type: 2}
