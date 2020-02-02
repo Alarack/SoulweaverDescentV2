@@ -12,13 +12,33 @@ public class SpriteToolsEditor : Editor
     {
         _spriteTools = (SpriteTools)target;
 
-        if(GUILayout.Button("Randomize Sprites"))
-        {
-            _spriteTools.RandomizeSprites();
+        //if(GUILayout.Button("Randomize Sprites"))
+        //{
+        //    _spriteTools.RandomizeSprites();
+        //}
+
+        //if (GUILayout.Button("Reset Sprites")) {
+        //    _spriteTools.ResetSprites();
+        //}
+
+        if (GUILayout.Button("Colorize")) {
+            _spriteTools.GetAndColorizeSprites();
         }
 
-        if (GUILayout.Button("Reset Sprites")) {
-            _spriteTools.ResetSprites();
+        if (GUILayout.Button("Shift Value")) {
+            _spriteTools.GetAndShiftSpriteValues();
+        }
+
+        //if (GUILayout.Button("Shift Cached Value")) {
+        //    _spriteTools.ShiftCachedColorsValue();
+        //}
+
+        if (GUILayout.Button("Set Order In Layer")) {
+            _spriteTools.GetAndSetSpriteOrder();
+        }
+
+        if (GUILayout.Button("Set Layer")) {
+            _spriteTools.GetAndSetSpriteLayer();
         }
 
 
