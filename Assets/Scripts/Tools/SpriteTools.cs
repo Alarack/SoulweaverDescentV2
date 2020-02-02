@@ -68,6 +68,16 @@ public class SpriteTools : MonoBehaviour {
         SpriteToolsExtended.ShiftColorValue(tints, colorIncrement);
     }
 
+    public void RandomizeSprites() {
+
+        if(spriteVariants.Count == 0) {
+            Debug.LogError("[Sprite Tools] Sprite Variants have not been set in the inspector");
+            return;
+        }
+
+        SpriteToolsExtended.RandomizeSprites(GetRenderers(), spriteVariants);
+    }
+
 
 
     private List<SpriteRenderer> GetRenderers() {
@@ -136,6 +146,44 @@ public static class SpriteToolsExtended {
 
             colors[i] = newColor;
         }
+    }
+
+    public static void RandomizeSprites(List<SpriteRenderer> renderers, List<Sprite> variants) {
+
+        int count = renderers.Count;
+        for (int i = 0; i < count; i++) {
+            float width = renderers[i].sprite.bounds.size.x;
+            float height = renderers[i].sprite.bounds.size.y;
+
+            Sprite randomSprite = GetRandomSpriteOfSameSize(width, height, variants);
+
+            if (randomSprite == null)
+                continue;
+            else {
+                renderers[i].sprite = randomSprite;
+            }
+
+
+        }
+
+    }
+
+    public static Sprite GetRandomSpriteOfSameSize(float width, float height, List<Sprite> sprites) {
+
+        sprites.Shuffle();
+
+        int count = sprites.Count;
+        for (int i = 0; i < count; i++) {
+            float curWidth = sprites[i].bounds.size.x;
+            float curHeight = sprites[i].bounds.size.y;
+
+            if (curWidth == width && curHeight == height)
+                return sprites[i];
+
+        }
+
+        return null;
+
     }
 
 

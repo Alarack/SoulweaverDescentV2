@@ -21,6 +21,10 @@ public class SpriteToolsEditor : Editor
         //    _spriteTools.ResetSprites();
         //}
 
+        if (GUILayout.Button("Randomzie")) {
+            _spriteTools.RandomizeSprites();
+        }
+
         if (GUILayout.Button("Colorize")) {
             _spriteTools.GetAndColorizeSprites();
         }
