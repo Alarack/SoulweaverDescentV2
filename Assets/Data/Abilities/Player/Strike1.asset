@@ -38,6 +38,20 @@ MonoBehaviour:
     resourceValueAmount: 0
     spendResource: 0
   - requiredCondition: 0
+    inverse: 0
+    compareAgainstTarget: 0
+    weightModifer: 0
+    type: 0
+    targetDistance: 0
+    statValueTarget: 0
+    statValueAmount: 0
+    statRatioTarget: 0
+    statRatioAmount: 0
+    hasStatusType: 0
+    targetResource: 0
+    resourceValueAmount: 0
+    spendResource: 0
+  - requiredCondition: 0
     inverse: 1
     compareAgainstTarget: 0
     weightModifer: 0
@@ -94,7 +108,7 @@ MonoBehaviour:
       shape: 4
       size: 3
       durationType: 0
-      instantZoneLife: 0.5
+      instantZoneLife: 0.25
       duration: 0
       interval: 0
       removeEffectOnExit: 0

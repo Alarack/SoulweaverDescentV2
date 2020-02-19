@@ -22,6 +22,13 @@ MonoBehaviour:
     statChangeTarget: 0
     activationTime: 0
     keyBind: 1
+  - activationMethod: 0
+    activationConditions: 
+    targetstat: 0
+    gainedOrLost: 0
+    statChangeTarget: 0
+    activationTime: 0
+    keyBind: 0
   conditions: []
   abilityIcon: {fileID: 0}
   useDuration: 0.1
@@ -66,7 +73,7 @@ MonoBehaviour:
       shape: 4
       size: 3
       durationType: 0
-      instantZoneLife: 0.5
+      instantZoneLife: 0.25
       duration: 0
       interval: 0
       removeEffectOnExit: 0
@@ -91,6 +98,69 @@ MonoBehaviour:
       angle: 0
       error: 0
       resetCurrentVelocity: 0
+  - effectName: KnockBack
+    riderTarget: StrikeDamage
+    tags: 
+    effectOrigin: 0
+    weaponDelivery: 0
+    weaponDeliveryAnimSpeed: 1
+    weaponPrefabName: 
+    weaponAnimTrigger: 
+    deliveryMethod: 5
+    effectType: 2
+    durationType: 1
+    statusTypeInfo:
+      stackMethod: 2
+      duration: 0.5
+      interval: 0
+      onCompleteEffectName: 
+      maxStacks: 0
+      statusType: 9
+      animBool: 
+      vfxName: 
+      vfxPosOffset: {x: 0, y: 0}
+    projectileInfo:
+      prefabName: 
+      spreadType: 0
+      projectileCount: 0
+      error: 0
+      burstDelay: 0
+      addInitialForce: 0
+      initialForce:
+        directionType: 0
+        amount: 0
+        angle: 0
+        error: 0
+        resetCurrentVelocity: 0
+    effectZoneInfo:
+      shape: 0
+      size: 0
+      durationType: 0
+      instantZoneLife: 0
+      duration: 0
+      interval: 0
+      removeEffectOnExit: 0
+      parentEffectToOrigin: 0
+      effectZoneAnimTrigger: 
+      effectZoneImpactVFX: 
+      effectZoneSpawnVFX: 
+      zoneName: 
+    animationTrigger: 
+    layerMask:
+      serializedVersion: 2
+      m_Bits: 512
+    adjInfo:
+      adjustmentValue: 0
+      targetStat: 0
+      modType: 0
+      permanent: 0
+      options: 
+    addForceInfo:
+      directionType: 5
+      amount: 500
+      angle: 55
+      error: 0
+      resetCurrentVelocity: 1
   recoveryData:
   - type: 1
     cooldown: 0.1

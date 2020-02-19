@@ -28,7 +28,7 @@ MonoBehaviour:
     compareAgainstTarget: 0
     weightModifer: 75
     type: 0
-    targetDistance: 2
+    targetDistance: 1.5
     statValueTarget: 0
     statValueAmount: 0
     statRatioTarget: 0
@@ -118,11 +118,11 @@ MonoBehaviour:
     durationType: 1
     statusTypeInfo:
       stackMethod: 2
-      duration: 0.5
+      duration: 1.5
       interval: 0
       onCompleteEffectName: 
       maxStacks: 0
-      statusType: 8
+      statusType: 9
       animBool: 
       vfxName: 
       vfxPosOffset: {x: 0, y: 0}
@@ -157,7 +157,7 @@ MonoBehaviour:
       serializedVersion: 2
       m_Bits: 0
     adjInfo:
-      adjustmentValue: -1
+      adjustmentValue: 0
       targetStat: 6
       modType: 1
       permanent: 0
