@@ -137,8 +137,13 @@ public class AISensor : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D other)
     {
+
+        
+
         if (LayerTools.IsLayerInMask(targetLayers, other.gameObject.layer) == false)
             return;
+
+        //Debug.Log("Senser seeing: " + other.gameObject.name);
 
         GameObject target = TryToDetect(other.gameObject);
         if (target != null)

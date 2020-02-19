@@ -7,6 +7,7 @@ public class EntityEnemy : Entity
 {
 
     public string defaultState;
+    public string aggroState;
 
     public AIBrain Brain { get; protected set; }
     public AISensor AISensor { get; protected set; }
@@ -41,7 +42,7 @@ public class EntityEnemy : Entity
 
     public void Aggro()
     {
-        FSMState chaseState = FSMManager.GetState("ZombieChase");
+        FSMState chaseState = FSMManager.GetState(aggroState);
         if (chaseState != null)
             EntityFSM.ChangeState(chaseState);
     }
@@ -52,7 +53,11 @@ public class EntityEnemy : Entity
     {
         if(transform.position.y <= -11)
         {
-            Health.Die();
+            if (Health != null)
+                Health.Die();
+            else
+                Debug.LogError(entityName + " has no health death manager and is trying to die");
+
         }
     }
 

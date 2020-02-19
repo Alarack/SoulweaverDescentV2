@@ -42,7 +42,7 @@ public static class VisualEffectLoader  {
 
         if(loadedText == null)
         {
-            Debug.Log("Couldn't find floating test asset");
+            Debug.LogError("Couldn't find floating text asset");
             return;
         }
 

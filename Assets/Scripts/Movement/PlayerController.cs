@@ -120,17 +120,20 @@ public class PlayerController : EntityMovement {
             SwapWeaponSide();
         }
 
-        if(GameInput.Horizontal == 0) {
-            if(MyBody.velocity.x < 0 && Owner.SpriteRenderer.flipX == false) {
-                Owner.SpriteRenderer.flipX = true;
-                SwapWeaponSide();
-            }
+        //TODO: Figure out if we want to flip character based on velocity
+        //if (StatusManager.CheckForStatus(Owner.gameObject, Constants.StatusType.MovementAffecting) == false) {
+        //    if (GameInput.Horizontal == 0) {
+        //        if (MyBody.velocity.x < 0 && Owner.SpriteRenderer.flipX == false) {
+        //            Owner.SpriteRenderer.flipX = true;
+        //            SwapWeaponSide();
+        //        }
 
-            if(MyBody.velocity.x > 0 && Owner.SpriteRenderer.flipX == true) {
-                Owner.SpriteRenderer.flipX = false;
-                SwapWeaponSide();
-            }
-        }
+        //        if (MyBody.velocity.x > 0 && Owner.SpriteRenderer.flipX == true) {
+        //            Owner.SpriteRenderer.flipX = false;
+        //            SwapWeaponSide();
+        //        }
+        //    }
+        //}
     }
 
 
