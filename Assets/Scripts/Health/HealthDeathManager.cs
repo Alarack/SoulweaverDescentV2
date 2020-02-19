@@ -7,29 +7,27 @@ public class HealthDeathManager : MonoBehaviour {
 
     public GameObject corpse;
     public bool cheat;
+    public string deathAnimTrigger;
     public Entity Owner { get; private set; }
     public float Ratio { get { return Owner.EntityStats.GetCappedStatRatio(BaseStat.StatType.Health); } }
     //public float maxHealth;
-    public float Health { get {return Owner.EntityStats.GetStatModifiedValue(BaseStat.StatType.Health); } }
+    public float Health { get { return Owner.EntityStats.GetStatModifiedValue(BaseStat.StatType.Health); } }
 
 
     //private float currentHealth;
     private bool dying;
 
 
-    public void Initialize(Entity owner)
-    {
+    public void Initialize(Entity owner) {
         Owner = owner;
         //currentHealth = maxHealth;
     }
 
-    private void OnEnable()
-    {
+    private void OnEnable() {
         EventGrid.EventManager.RegisterListener(Constants.GameEvent.StatChanged, OnStatChanged);
     }
 
-    private void OnDisable()
-    {
+    private void OnDisable() {
         EventGrid.EventManager.RemoveListener(Constants.GameEvent.StatChanged, OnStatChanged);
     }
 
@@ -42,8 +40,7 @@ public class HealthDeathManager : MonoBehaviour {
     //}
 
 
-    public void OnStatChanged(EventData data)
-    {
+    public void OnStatChanged(EventData data) {
         GameObject target = data.GetGameObject("Target");
         BaseStat.StatType stat = (BaseStat.StatType)data.GetInt("Stat");
         float value = data.GetFloat("Value");
@@ -56,37 +53,47 @@ public class HealthDeathManager : MonoBehaviour {
         if (stat != BaseStat.StatType.Health)
             return;
 
-        if (value < 0f)
-        {
+        if(Health <= 0 && dying == true) {
+            return;
+        }
+
+        if (value < 0f) {
             Owner.AnimHelper.PlayAnimTrigger("Flinch");
         }
 
-        //Debug.Log(Health + " is the current health of " + Owner.gameObject.name);
+        Debug.Log(Health + " is the current health of " + Owner.gameObject.name);
 
-        if (Health <= 0f && dying == false && cheat == false)
-        {
+        if (Health <= 0f && dying == false && cheat == false) {
             Die();
         }
 
     }
 
-    public void Die()
-    {
+    public void Die() {
         dying = true;
 
-        if(LayerMask.LayerToName(Owner.gameObject.layer) == "Enemy")
-        {
+        if (LayerMask.LayerToName(Owner.gameObject.layer) == "Enemy") {
             GameManager.Instance.spawnManager.EnemyDied(Owner);
             //Debug.Log(gameObject.name + " died");
         }
 
         Owner.FSMManager.UnregisterEventListeners();
+
+        if (string.IsNullOrEmpty(deathAnimTrigger) == true) {
+            FinishDeath();
+        }
+        else
+            Owner.AnimHelper.PlayAnimTrigger("Die");
+
+
+    }
+
+    private void FinishDeath() {
         CreateCorpse();
         Destroy(gameObject);
     }
 
-    private void CreateCorpse()
-    {
+    private void CreateCorpse() {
         if (corpse == null)
             return;
 

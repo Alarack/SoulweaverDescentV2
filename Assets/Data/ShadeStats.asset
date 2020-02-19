@@ -16,7 +16,7 @@ MonoBehaviour:
   stats:
   - variant: 2
     statType: 1
-    baseValue: 50
+    baseValue: 25
   - variant: 1
     statType: 6
     baseValue: 2
