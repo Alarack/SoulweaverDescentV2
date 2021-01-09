@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 10cebe3e03a921f498c13bc9bb62bdaa, type: 3}
-  m_Name: Strike2
+  m_Name: Strike1
   m_EditorClassIdentifier: 
-  abilityName: Strike2
+  abilityName: Strike1
   baseWeight: 0
   activations:
   - activationMethod: 1
@@ -22,11 +22,53 @@ MonoBehaviour:
     statChangeTarget: 0
     activationTime: 0
     keyBind: 1
-  conditions: []
+  conditions:
+  - requiredCondition: 0
+    inverse: 0
+    compareAgainstTarget: 0
+    weightModifer: 0
+    type: 4
+    targetDistance: 0
+    statValueTarget: 0
+    statValueAmount: 0
+    statRatioTarget: 0
+    statRatioAmount: 0
+    hasStatusType: 0
+    targetResource: 0
+    resourceValueAmount: 0
+    spendResource: 0
+  - requiredCondition: 0
+    inverse: 0
+    compareAgainstTarget: 0
+    weightModifer: 0
+    type: 0
+    targetDistance: 0
+    statValueTarget: 0
+    statValueAmount: 0
+    statRatioTarget: 0
+    statRatioAmount: 0
+    hasStatusType: 0
+    targetResource: 0
+    resourceValueAmount: 0
+    spendResource: 0
+  - requiredCondition: 0
+    inverse: 1
+    compareAgainstTarget: 0
+    weightModifer: 0
+    type: 6
+    targetDistance: 0
+    statValueTarget: 0
+    statValueAmount: 0
+    statRatioTarget: 0
+    statRatioAmount: 0
+    hasStatusType: 0
+    targetResource: 0
+    resourceValueAmount: 0
+    spendResource: 0
   abilityIcon: {fileID: 0}
   useDuration: 0.1
   procChance: 1
-  overrideOtherAbilities: 1
+  overrideOtherAbilities: 0
   effectData:
   - effectName: StrikeDamage
     riderTarget: 
@@ -66,7 +108,7 @@ MonoBehaviour:
       shape: 4
       size: 3
       durationType: 0
-      instantZoneLife: 0.5
+      instantZoneLife: 0.25
       duration: 0
       interval: 0
       removeEffectOnExit: 0
@@ -75,7 +117,7 @@ MonoBehaviour:
       effectZoneImpactVFX: 
       effectZoneSpawnVFX: VFX_BasicStab
       zoneName: TestHit
-    animationTrigger: Attack2
+    animationTrigger: Attack1
     layerMask:
       serializedVersion: 2
       m_Bits: 512
@@ -95,5 +137,7 @@ MonoBehaviour:
   - type: 1
     cooldown: 0.1
     kills: 0
-  sequencedAbilities: []
-  sequenceWindow: 0.5
+  sequencedAbilities:
+  - {fileID: 11400000}
+  - {fileID: 11400000, guid: 2d4a293728e6586458840c162cec4246, type: 2}
+  sequenceWindow: 0.25

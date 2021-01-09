@@ -25,17 +25,17 @@ public class EntityMovement : MonoBehaviour {
     public LayerMask groundLayer;
 
     public RayCastController RayController { get; protected set; }
-
+    [Header("Tweaks")]
+    public bool defaultFacingLeft;
 
     //[Header("Flags for temp status")]
     //public bool knockedBack;
 
     private Timer knockBackTimer;
 
+    
 
-
-    protected virtual void Update()
-    {
+    protected virtual void Update() {
         if (RayController != null)
             RayController.ManagedUpdate();
 
@@ -47,18 +47,15 @@ public class EntityMovement : MonoBehaviour {
         //}
     }
 
-    protected virtual void FixedUpdate()
-    {
+    protected virtual void FixedUpdate() {
 
     }
 
-    public virtual void MoveHorizontal()
-    {
+    public virtual void MoveHorizontal() {
 
         //Debug.Log(Speed + " is speed for " + Owner.gameObject.name);
 
-        if(Speed == 0)
-        {
+        if (Speed == 0) {
             Owner.AnimHelper.StopWalk();
         }
 
@@ -66,8 +63,7 @@ public class EntityMovement : MonoBehaviour {
         bool underMovementAffecting = StatusManager.CheckForStatus(Owner.gameObject, Constants.StatusType.MovementAffecting);
         bool underKnockback = StatusManager.CheckForStatus(Owner.gameObject, Constants.StatusType.Knockback);
 
-        if (underMovementAffecting == true || underKnockback == true)
-        {
+        if (underMovementAffecting == true || underKnockback == true) {
             //if(Owner is EntityEnemy)
             //{
             //    Debug.Log(" I havea movement affecting status");
@@ -77,15 +73,13 @@ public class EntityMovement : MonoBehaviour {
         }
 
 
-        if (currentHorizontalDirection == 0f)
-        {
+        if (currentHorizontalDirection == 0f) {
             Owner.AnimHelper.StopWalk();
 
             //if (knockedBack == true)
             //    return;
         }
-        else
-        {
+        else {
             if (RayController.IsGrounded)
                 Owner.AnimHelper.PlayWalk();
         }
@@ -93,7 +87,7 @@ public class EntityMovement : MonoBehaviour {
         //if (Owner is EntityEnemy)
         //    Debug.Log("No movement affecting status, so moving normal");
 
-        if(RayController.IsGrounded == false && RayController.IsHittingWall == false && Mathf.Abs( GameInput.Horizontal) !=1) {
+        if (RayController.IsGrounded == false && RayController.IsHittingWall == false && Mathf.Abs(GameInput.Horizontal) != 1) {
             MyBody.velocity = new Vector2(MyBody.velocity.x * airDragMod, MyBody.velocity.y);
             //Debug.Log("AirMotion");
         }
@@ -105,13 +99,11 @@ public class EntityMovement : MonoBehaviour {
 
     }
 
-    protected virtual void ConfigureHorizontalDirection()
-    {
+    protected virtual void ConfigureHorizontalDirection() {
 
     }
 
-    public virtual void Initialize(Entity owner)
-    {
+    public virtual void Initialize(Entity owner) {
         Owner = owner;
         MyBody = GetComponent<Rigidbody2D>();
         BoxCollider = GetComponent<BoxCollider2D>();
@@ -119,22 +111,21 @@ public class EntityMovement : MonoBehaviour {
         RayController = new RayCastController(this);
     }
 
-    public FacingDirection GetFacing()
-    {
-        return Owner.SpriteRenderer.flipX ? FacingDirection.Left : FacingDirection.Right;
+    public FacingDirection GetFacing() {
+        if (defaultFacingLeft == true)
+            return Owner.SpriteRenderer.flipX ? FacingDirection.Right : FacingDirection.Left;
+        else
+            return Owner.SpriteRenderer.flipX ? FacingDirection.Left : FacingDirection.Right;
     }
 
-    protected virtual void UpdateFacing()
-    {
+    protected virtual void UpdateFacing() {
 
     }
 
-    protected void SwapWeaponSide()
-    {
+    protected void SwapWeaponSide() {
         //Debug.Log("Swaping weapon side");
 
-        if (Owner.CurrentWeapon == null)
-        {
+        if (Owner.CurrentWeapon == null) {
             //Debug.Log("weapon is null");
             return;
         }
@@ -145,14 +136,11 @@ public class EntityMovement : MonoBehaviour {
 
         //Debug.Log(originPoint.originType + " is the origion point type");
 
-        if (originPoint.point != null)
-        {
-            switch (originPoint.originType)
-            {
+        if (originPoint.point != null) {
+            switch (originPoint.originType) {
                 case Constants.EffectOrigin.RightHand:
 
-                    if(Owner.Movement.Facing == FacingDirection.Left)
-                    {
+                    if (Owner.Movement.Facing == FacingDirection.Left) {
                         Owner.CurrentWeapon.transform.SetParent(Owner.EffectDelivery.GetOriginPoint(Constants.EffectOrigin.LeftHand), false);
                         Owner.CurrentWeapon.transform.localScale = new Vector3(
                             Owner.CurrentWeapon.transform.localScale.x * -1,
@@ -163,8 +151,7 @@ public class EntityMovement : MonoBehaviour {
                     break;
 
                 case Constants.EffectOrigin.LeftHand:
-                    if(Owner.Movement.Facing == FacingDirection.Right)
-                    {
+                    if (Owner.Movement.Facing == FacingDirection.Right) {
                         Owner.CurrentWeapon.transform.SetParent(Owner.EffectDelivery.GetOriginPoint(Constants.EffectOrigin.RightHand), false);
                         Owner.CurrentWeapon.transform.localScale = new Vector3(
                             Owner.CurrentWeapon.transform.localScale.x * -1,
@@ -187,8 +174,7 @@ public class EntityMovement : MonoBehaviour {
                     Debug.Log(target.gameObject.name + " is where I should be");
                     Debug.Log(originPoint.point + " is where I am");
 
-                    if (originPoint.point != target)
-                    {
+                    if (originPoint.point != target) {
                         Debug.Log("wrong side");
                     }
 
@@ -199,20 +185,25 @@ public class EntityMovement : MonoBehaviour {
     }
 
 
-    public virtual void SetFacing(FacingDirection direction)
-    {
+    public virtual void SetFacing(FacingDirection direction) {
         FacingDirection currentFacing = GetFacing();
 
         if (currentFacing == direction)
             return;
 
-        switch (direction)
-        {
+        switch (direction) {
             case FacingDirection.Left:
-                Owner.SpriteRenderer.flipX = true;
+
+                if (defaultFacingLeft == false)
+                    Owner.SpriteRenderer.flipX = true;
+                else
+                    Owner.SpriteRenderer.flipX = false;
                 break;
             case FacingDirection.Right:
-                Owner.SpriteRenderer.flipX = false;
+                if (defaultFacingLeft == false)
+                    Owner.SpriteRenderer.flipX = false;
+                else
+                    Owner.SpriteRenderer.flipX = true;
                 break;
 
         }
@@ -229,8 +220,7 @@ public class EntityMovement : MonoBehaviour {
     //}
 
 
-    public void ForceMovement(Vector2 force, float duration = 0.2f, bool resetVelocity = false)
-    {
+    public void ForceMovement(Vector2 force, float duration = 0.2f, bool resetVelocity = false) {
         //knockedBack = true;
         //if(knockBackTimer == null)
         //    knockBackTimer = new Timer(duration, RestoreKnockBack);
@@ -243,11 +233,10 @@ public class EntityMovement : MonoBehaviour {
             MyBody.velocity = Vector2.zero;
 
         MyBody.velocity += force;
-        
+
     }
 
-    public void SpinCrazy()
-    {
+    public void SpinCrazy() {
         float randongRotSpeed = Random.Range(-720f, 720f);
         float randomY = Random.Range(250f, 350f);
 

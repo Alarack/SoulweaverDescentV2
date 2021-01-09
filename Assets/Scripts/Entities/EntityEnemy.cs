@@ -6,6 +6,9 @@ using LL.FSM;
 public class EntityEnemy : Entity
 {
 
+    public string defaultState;
+    public string aggroState;
+
     public AIBrain Brain { get; protected set; }
     public AISensor AISensor { get; protected set; }
 
@@ -28,18 +31,18 @@ public class EntityEnemy : Entity
     private void Start()
     {
         //FSM TESTING
-        FSMState normalState = FSMManager.GetState("ZombieWander");
+        FSMState normalState = FSMManager.GetState(defaultState);
         if (normalState != null)
             EntityFSM.ChangeState(normalState);
         else
         {
-            Debug.LogError("Can't find Zombie Wander state");
+            Debug.LogError("Can't find Default state");
         }
     }
 
     public void Aggro()
     {
-        FSMState chaseState = FSMManager.GetState("ZombieChase");
+        FSMState chaseState = FSMManager.GetState(aggroState);
         if (chaseState != null)
             EntityFSM.ChangeState(chaseState);
     }
@@ -50,7 +53,11 @@ public class EntityEnemy : Entity
     {
         if(transform.position.y <= -11)
         {
-            Health.Die();
+            if (Health != null)
+                Health.Die();
+            else
+                Debug.LogError(entityName + " has no health death manager and is trying to die");
+
         }
     }
 

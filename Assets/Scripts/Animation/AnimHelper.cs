@@ -71,8 +71,12 @@ public class AnimHelper : MonoBehaviour
 
         try
         {
+
+            if(effect != null)
+                currentEffect = effect;
+
             Anim.SetTrigger(trigger);
-            currentEffect = effect;
+            
             
             return true;
         }
@@ -82,6 +86,12 @@ public class AnimHelper : MonoBehaviour
             return false;
         }
     }
+
+
+
+    //public bool PlayAnimTrigger(string trigger, Effect effect) {
+
+    //}
 
     public AnimatorStateInfo GetCurrentAnimatorStateInfo(int index) {
         return Anim.GetCurrentAnimatorStateInfo(index);
@@ -134,13 +144,15 @@ public class AnimHelper : MonoBehaviour
 
     public void BeginEffectDelivery() {
 
-        if(currentEffect != null) {
+        if (currentEffect != null) {
 
             Debug.Log("Recieving Anim Event for " + currentEffect.ParentAbility.abilityName);
 
             currentEffect.BeginDelivery(currentEffect.weaponDelivery);
             currentEffect = null;
         }
+        else
+            Debug.LogError("No current effect to begin delivery on");
 
     }
 
