@@ -33,6 +33,7 @@ public class BaseStat {
 
     public StatType Type { get; protected set; }
     public float BaseValue { get; protected set; }
+    public float StaticModifier { get; protected set; }
     public float ModifiedValue { get { return GetModifiedValue(); } }
 
     protected List<StatModifier> mods = new List<StatModifier>();
@@ -59,7 +60,7 @@ public class BaseStat {
         switch (modType)
         {
             case StatModifier.StatModificationType.Additive:
-                BaseValue += value;
+                StaticModifier += value;
                 break;
 
             case StatModifier.StatModificationType.Multiplicative:
@@ -120,12 +121,14 @@ public class BaseStat {
     public virtual void Reset()
     {
         mods.Clear();
+        StaticModifier = 0f;
     }
 
     protected virtual float GetModifiedValue()
     {
         float result = BaseValue + GetTotalAdditiveMod();
         result *= GetTotalMultiplier();
+        result += StaticModifier;
 
         return result;
     }

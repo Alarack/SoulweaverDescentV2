@@ -137,9 +137,6 @@ public class AISensor : MonoBehaviour {
 
     private void OnTriggerStay2D(Collider2D other)
     {
-
-        
-
         if (LayerTools.IsLayerInMask(targetLayers, other.gameObject.layer) == false)
             return;
 
