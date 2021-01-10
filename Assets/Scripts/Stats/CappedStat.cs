@@ -62,6 +62,7 @@ public class CappedStat : BaseStat {
     public void Refresh()
     {
         BaseValue = MaxValue;
+        StaticModifier = 0f;
     }
 
 }
