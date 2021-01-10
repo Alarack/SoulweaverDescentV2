@@ -848,6 +848,195 @@ TextureImporter:
   - first:
       213: 571494050262645105
     second: TEM1_EdgePixel
+  - first:
+      213: 470950739701164645
+    second: TEM1_BridgePlatLarge
+  - first:
+      213: -1835217753944814205
+    second: TEM1_BridgePlatLargeSeamless
+  - first:
+      213: -4194157425048414937
+    second: TEM1_ColumnMidSectionBroken1
+  - first:
+      213: 1415113430596746218
+    second: TEM1_ColumnMidSectionBroken2
+  - first:
+      213: -3914612266446173046
+    second: TEM1_ColumnTopBroken
+  - first:
+      213: 1963087947301097065
+    second: TEM1_BannerRedTatter1
+  - first:
+      213: -3938009836882440779
+    second: TEM1_BannerRedTatter2
+  - first:
+      213: 6759304250699684196
+    second: TEM1_BannerRedTatter3
+  - first:
+      213: -7212792928300295613
+    second: TEM1_BannerRedTatter4
+  - first:
+      213: -633872348707378665
+    second: TEM1_BannerRedTatter5
+  - first:
+      213: 1894839806569006505
+    second: TEM1_BannerRedTatter6
+  - first:
+      213: -7588135026519593264
+    second: TEM1_BannerRedTatter7
+  - first:
+      213: 2359591348191945815
+    second: TEM1_BannerRedTatter8
+  - first:
+      213: 4960682003854476292
+    second: TEM1_BannerBlueTatter1
+  - first:
+      213: -3185056243301808398
+    second: TEM1_BannerBlueTatter2
+  - first:
+      213: 4769626385408123923
+    second: TEM1_BannerBlueTatter3
+  - first:
+      213: -6399911200484880480
+    second: TEM1_BannerBlueTatter4
+  - first:
+      213: -6489772910535730308
+    second: TEM1_BannerGreenTatter1
+  - first:
+      213: 28761479214646870
+    second: TEM1_BannerGreenTatter2
+  - first:
+      213: -4051690392210889054
+    second: TEM1_BannerGreenTatter3
+  - first:
+      213: 6497996424743019475
+    second: TEM1_BannerGreenTatter4
+  - first:
+      213: 5934590471014123147
+    second: TEM1_BannerGreenTatter5
+  - first:
+      213: 845856487323006288
+    second: TEM1_LargeWindow
+  - first:
+      213: 233601753799671632
+    second: TEM1_IntricWallConnector
+  - first:
+      213: -5554389150695783376
+    second: TEM1_IntricFloorCorner
+  - first:
+      213: -8965913514646626627
+    second: Temple_Tileset_PL_1_0
+  - first:
+      213: -7757535090455488710
+    second: TEM1_IntricCeilingCorner
+  - first:
+      213: 935382670104497508
+    second: TEM1_IntricFloorSimple
+  - first:
+      213: 3175115519589883231
+    second: TEM1_IntricFloorPlatform
+  - first:
+      213: -809007241006569569
+    second: TEM1_LargeDoorCracked
+  - first:
+      213: -5663325574457746829
+    second: TEM1_BrokenBookshelf
+  - first:
+      213: -6779649557602833935
+    second: TEM1_AltarBroken
+  - first:
+      213: -4136432923728368675
+    second: TEM1_IntricCeilingCornerEdges
+  - first:
+      213: 3896421745853395222
+    second: TEM1_wtf
+  - first:
+      213: 2828186002856431370
+    second: TEM1_Bookshelf_Chunk3
+  - first:
+      213: 1560426411057590709
+    second: TEM1_Bookshelf_Chunk2
+  - first:
+      213: 5952101723762501148
+    second: TEM1_Bookshelf_Chunk1
+  - first:
+      213: 5030328611328464068
+    second: TEM1_Bookshelf_Chunk4
+  - first:
+      213: 1553391563807348821
+    second: TEM1_Bookshelf_Chunk5
+  - first:
+      213: -923449510573306659
+    second: TEM1_Bookshelf_Chunk6
+  - first:
+      213: -793279309251702457
+    second: TEM1_Bookshelf_Chunk10
+  - first:
+      213: 9184441339727865951
+    second: TEM1_Bookshelf_Chunk13
+  - first:
+      213: 7802956828891513811
+    second: TEM1_Bookshelf_Chunk12
+  - first:
+      213: -6314737839190878114
+    second: TEM1_Bookshelf_Chunk20
+  - first:
+      213: 5858103300348299816
+    second: TEM1_Bookshelf_Chunk11
+  - first:
+      213: 7084062427146542763
+    second: TEM1_Bookshelf_Chunk19
+  - first:
+      213: 1299217252302434707
+    second: TEM1_Bookshelf_Chunk19
+  - first:
+      213: -4842484583952944852
+    second: TEM1_Bookshelf_Chunk9
+  - first:
+      213: 8206028354728505524
+    second: TEM1_Bookshelf_Chunk8
+  - first:
+      213: -5349533702528956940
+    second: TEM1_Bookshelf_Chunk7
+  - first:
+      213: 1180456843330420983
+    second: TEM1_Bookshelf_Chunk14
+  - first:
+      213: -5269812854680033558
+    second: TEM1_Bookshelf_Chunk15
+  - first:
+      213: 3468313284186816347
+    second: TEM1_Bookshelf_Chunk16
+  - first:
+      213: -2400460234386761127
+    second: TEM1_Bookshelf_Chunk17
+  - first:
+      213: -5734569675607196373
+    second: TEM1_Altar_Chunk3
+  - first:
+      213: -5957102828497659535
+    second: TEM1_Altar_Chunk2
+  - first:
+      213: 8423234891632781374
+    second: TEM1_Altar_Chunk1
+  - first:
+      213: -8056942287276397915
+    second: TEM1_Altar_Chunk4
+  - first:
+      213: 2210172294250998026
+    second: TEM1_Altar_Chunk5
+  - first:
+      213: 5221283475606824919
+    second: TEM1_Altar_Chunk6
+  - first:
+      213: 7346594835751069542
+    second: TEM1_Altar_Chunk9
+  - first:
+      213: -2247770943468329423
+    second: TEM1_Altar_Chunk8
+  - first:
+      213: 1759609298727091794
+    second: TEM1_Altar_Chunk7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -909,7 +1098,7 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -921,7 +1110,7 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -933,121 +1122,16 @@ TextureImporter:
     maxTextureSize: 1024
     resizeAlgorithm: 1
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
     androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 1
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
-    - serializedVersion: 2
-      name: TEM1_Mosaic_SquareLarge_V1
-      rect:
-        serializedVersion: 2
-        x: 448
-        y: 960
-        width: 64
-        height: 64
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f959bf5dd645504c8b80eff1c69b90d
-      internalID: 21300034
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TEM1_Mosaic_RectLarge_V1
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 960
-        width: 64
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 82eab13d22cacdc40b503200ff6e90b8
-      internalID: 21300036
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TEM1_Mosaic_SquareMedium_V1
-      rect:
-        serializedVersion: 2
-        x: 416
-        y: 992
-        width: 32
-        height: 32
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 083bed7de87651c43a7df867e71e9762
-      internalID: 21300038
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TEM1_Mosaic_RectSmall_V1
-      rect:
-        serializedVersion: 2
-        x: 384
-        y: 1008
-        width: 32
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1b7a85d219aa88643b4a39a6204e5644
-      internalID: 21300040
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: TEM1_Mosaic_SquareSmall_V1
-      rect:
-        serializedVersion: 2
-        x: 400
-        y: 992
-        width: 16
-        height: 16
-      alignment: 6
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 54be0f4d37f895345b135ac2e564ff40
-      internalID: 21300042
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: TEM1_BrazierStanding
       rect:
@@ -1661,10 +1745,10 @@ TextureImporter:
       name: TEM1_StandingBookshelf
       rect:
         serializedVersion: 2
-        x: 543
-        y: 899
-        width: 97
-        height: 125
+        x: 499
+        y: 904
+        width: 140
+        height: 118
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -4807,27 +4891,6 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TEM1_Tabletop
-      rect:
-        serializedVersion: 2
-        x: 543
-        y: 967
-        width: 97
-        height: 57
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 20561d2efc900594899eb00ec3326a9b
-      internalID: -5070341422317131647
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: TEM1_CrackedMosaicLarge4
       rect:
         serializedVersion: 2
@@ -6515,7 +6578,7 @@ TextureImporter:
         y: 362
         width: 52
         height: 88
-      alignment: 0
+      alignment: 9
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -6532,9 +6595,9 @@ TextureImporter:
       name: TEM1_ColumnMidSection
       rect:
         serializedVersion: 2
-        x: 156
+        x: 170
         y: 303
-        width: 52
+        width: 24
         height: 59
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -6734,6 +6797,1329 @@ TextureImporter:
       bones: []
       spriteID: 8ad8dee4665619f4fa8413c98a2e2a9a
       internalID: 571494050262645105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BridgePlatLarge
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 229
+        width: 383
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69b58c388e7002944ba77791845113d0
+      internalID: 470950739701164645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BridgePlatLargeSeamless
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 229
+        width: 381
+        height: 73
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a22db84343e1ebc49bab8e538ab03bcc
+      internalID: -1835217753944814205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ColumnMidSectionBroken1
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 303
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adb2c4cbcf8622d489999a9dc198be5e
+      internalID: -4194157425048414937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ColumnMidSectionBroken2
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 303
+        width: 24
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374eef0019b76d84dbf26a252c3bd4c5
+      internalID: 1415113430596746218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_ColumnTopBroken
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 366
+        width: 52
+        height: 84
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d9a04b97a461b149b17c51ce7ee20da
+      internalID: -3914612266446173046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 417
+        width: 8
+        height: 44
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ba25d83ddffa73408696c1fa856a835
+      internalID: 1963087947301097065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 417
+        width: 24
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f59e4b278ebda746a3760b4078985fb
+      internalID: -3938009836882440779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter3
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 397
+        width: 12
+        height: 65
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a4fd585c1898ef143b9248064a419e3c
+      internalID: 6759304250699684196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter4
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 373
+        width: 23
+        height: 89
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e812d3322888ebc4198c342ca41cb417
+      internalID: -7212792928300295613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter5
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 379
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d65eb4e24e48634aa0e2667d85627cb
+      internalID: -633872348707378665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter6
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 371
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e9d74a2bd9e1504bb71d39fdf51c5d3
+      internalID: 1894839806569006505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter7
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 373
+        width: 5
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d402c7a0de07314abd95eda0ae22cd6
+      internalID: -7588135026519593264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerRedTatter8
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 347
+        width: 57
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a90a0bfb0ef2fb4e9f2be0dd3c70e89
+      internalID: 2359591348191945815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerBlueTatter1
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 310
+        width: 25
+        height: 82
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313da7cfebf656e498ddf5235f4c621c
+      internalID: 4960682003854476292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerBlueTatter2
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 312
+        width: 62
+        height: 67
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6c3200fcbd0c3040b88b4d4b8b5bbff
+      internalID: -3185056243301808398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerBlueTatter3
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 312
+        width: 40
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ab4c549458b069459f9ed743d6a854b
+      internalID: 4769626385408123923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerBlueTatter4
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 327
+        width: 12
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 777b655635be9f543ab345d2430f133b
+      internalID: -6399911200484880480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerGreenTatter1
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 323
+        width: 14
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b50e9a942b6c5424ab044710cc979567
+      internalID: -6489772910535730308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerGreenTatter2
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 255
+        width: 123
+        height: 80
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90d69b1de75521d42b7b134cdd4cf9d4
+      internalID: 28761479214646870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerGreenTatter3
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 260
+        width: 52
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 600b37a1b79560d4a8acd0ded7e6eb15
+      internalID: -4051690392210889054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerGreenTatter4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 259
+        width: 34
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b85c7d2c1cbb6343a046d84eda0cb9b
+      internalID: 6497996424743019475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BannerGreenTatter5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 261
+        width: 21
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69722846a8588564aac17b4ce3ac33cd
+      internalID: 5934590471014123147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_LargeWindow
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 71
+        width: 136
+        height: 269
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bcee01c1a638c44288342fce2ce47ee
+      internalID: 845856487323006288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntricWallConnector
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 72
+        width: 28
+        height: 142
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b425207bd89434db62a1e9c2046c48
+      internalID: 233601753799671632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntricFloorCorner
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 71
+        width: 135
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab7219acd548e5429f3773b96fcd634
+      internalID: -5554389150695783376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Temple_Tileset_PL_1_0
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1
+        width: 235
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 008e85600b503e84ab00cb6643d4a253
+      internalID: -8965913514646626627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntricCeilingCorner
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 1
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e0e22ae23523424d8da23d888a857f0
+      internalID: -7757535090455488710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntricFloorSimple
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 319
+        width: 119
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30d727d989e174443ac535fb1ff8d06a
+      internalID: 935382670104497508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntricFloorPlatform
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 319
+        width: 121
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2e30b38afa193a4a94116ff72f90781
+      internalID: 3175115519589883231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_LargeDoorCracked
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 358
+        width: 27
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e05af73196c3c240ab48e3c648f39c7
+      internalID: -809007241006569569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_BrokenBookshelf
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 904
+        width: 140
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edbe6251c1559bd4383dd27f292a3e73
+      internalID: -5663325574457746829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_AltarBroken
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 837
+        width: 109
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcd9e8ca5fec7844eb4a61ee2cbda619
+      internalID: -6779649557602833935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_IntricCeilingCornerEdges
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1
+        width: 70
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd538247a1175f34299ad3c6ef7cc613
+      internalID: -4136432923728368675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_wtf
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 16
+        width: 50
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9af3c67a1ea4d148a15d9133b920e53
+      internalID: 3896421745853395222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk3
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 992
+        width: 35
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d264dc9d9210b840a6d2aa9899db0d6
+      internalID: 2828186002856431370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk2
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 1002
+        width: 35
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa2fe6276dd229488f580a22f36b217
+      internalID: 1560426411057590709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk1
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 1003
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8f9fe7e3654d534caa12ebf9c63f44a
+      internalID: 5952101723762501148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk4
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 986
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f03ac57c7af8874084cd9b6cec0f78e
+      internalID: 5030328611328464068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk5
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 987
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f25039595ff3dd64aa6049537e27fa99
+      internalID: 1553391563807348821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk6
+      rect:
+        serializedVersion: 2
+        x: 324
+        y: 975
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee4649ca72834249bf934f206df3ad9
+      internalID: -923449510573306659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk10
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 976
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7256a4e21f8c21a4cadb8c6fdc913a29
+      internalID: -793279309251702457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk13
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 961
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdc406343ed792e4c964594b75865862
+      internalID: 9184441339727865951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk12
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 962
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9aa3e77f130d514980cad824b1cf627
+      internalID: 7802956828891513811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk20
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 942
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a543e7e12cc5284bbaef018705d23b0
+      internalID: -6314737839190878114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk11
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 962
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 049c948d5f92ffd4897ad9d06fc28fa8
+      internalID: 5858103300348299816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk18
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 953
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cc0311832cd0654584c9b8c5b5680c8
+      internalID: 7084062427146542763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk19
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 943
+        width: 18
+        height: 9
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbbd1119095f8854fa3ee0f403f0ddb1
+      internalID: 1299217252302434707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk9
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 961
+        width: 26
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f224350c13a2303478961f09f5e315f9
+      internalID: -4842484583952944852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk8
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 961
+        width: 12
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2448ca4eaa8ac547a60ee2c84d62289
+      internalID: 8206028354728505524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk7
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 943
+        width: 14
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d8a1fae1c81f064429b721d47dc9f59d
+      internalID: -5349533702528956940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk14
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 955
+        width: 32
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7deb8b617d57afb43a0dbe1b2c4b7c36
+      internalID: 1180456843330420983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk15
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 949
+        width: 17
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d06a26c71e7f214fa96669e53b58500
+      internalID: -5269812854680033558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk16
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 949
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031e8b5ed3297d3408e31355ace8e5ca
+      internalID: 3468313284186816347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Bookshelf_Chunk17
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 943
+        width: 30
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eac016c86d0da54a959e69d4c00a297
+      internalID: -2400460234386761127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 876
+        width: 35
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e398a383c76dfb41b61a766a0057dab
+      internalID: -5734569675607196373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk2
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 877
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99af24399a23be54386567e81faba6a1
+      internalID: -5957102828497659535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk1
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 874
+        width: 32
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7cd9f8eb37b5a43ab075f1626445e2
+      internalID: 8423234891632781374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk4
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 851
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5917fe204dc21c740abfe3b835308c7a
+      internalID: -8056942287276397915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk5
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 854
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f542bf3be9a86e4d9cf2eff3f0f9645
+      internalID: 2210172294250998026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk6
+      rect:
+        serializedVersion: 2
+        x: 380
+        y: 860
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120da7b7364c72342bf0f9d40e02ee7d
+      internalID: 5221283475606824919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk9
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 836
+        width: 23
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bbbf96ace927fb4ea9c450031637db8
+      internalID: 7346594835751069542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk8
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 837
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51d41ea99b8c73d4291861eab75ed811
+      internalID: -2247770943468329423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TEM1_Altar_Chunk7
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 832
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be002b40f1311b0498644fa0ae2f9263
+      internalID: 1759609298727091794
       vertices: []
       indices: 
       edges: []
